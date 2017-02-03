@@ -37,7 +37,10 @@ gulp.task('nunjucks', () => { // build html files from templates and partials
 
 gulp.task('sass', () => {
   gulp.src('app/scss/**/*.scss')
-    .pipe(sass().on('error', sass.logError)) // Convert SCSS to CSS with gulp-sass, log errors to console
+    .pipe(sass({ // Convert SCSS to CSS with gulp-sass, include susy, log errors to console
+      outputStyle: 'compressed',
+      includePaths: ['node_modules/susy/sass'],
+    }).on('error', sass.logError))
     .pipe(autoprefixer({ // automatically add vendor prefixes
       browsers: ['last 2 version'],
     }))

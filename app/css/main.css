@@ -1,3 +1,1 @@
-body {
-  color: #222;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+body{max-width:139.2rem;margin-left:auto;margin-right:auto;background-image:linear-gradient(to right, rgba(102,102,255,0.25),rgba(179,179,255,0.25) 60%,transparent 60%);background-size:8.62069%;background-origin:content-box;background-clip:content-box;background-position:left top;color:#222;font-family:"Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif}body:after{content:" ";display:block;clear:both}
