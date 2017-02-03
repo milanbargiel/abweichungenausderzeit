@@ -1,0 +1,7 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<h1>BOILPALERMO</h1>
+{% include "partials/header.nunjucks" %}
+{% endblock %}

@@ -10,7 +10,8 @@ const imagemin = require('gulp-imagemin'); // optimize images (reduce size)
 const cache = require('gulp-cache'); // used for save optimized images in cache
 const del = require('del'); // clean/delete unused files
 const runSequence = require('run-sequence'); // specify sequence of tasks
-const babel = require('gulp-babel');
+const babel = require('gulp-babel'); // transpile es6 to es5 (no module support)
+const nunjucksRender = require('gulp-nunjucks-render'); // template engine
 
 /* Development tasks
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -21,6 +22,17 @@ gulp.task('browserSync', () => { // Start browserSync local server
       baseDir: 'app',
     },
   });
+});
+
+gulp.task('nunjucks', () => { // build html files from templates and partials
+  gulp.src('app/pages/**/*.+(nunjucks)')
+    .pipe(nunjucksRender({ // render templates with nunjucks
+      path: ['app/templates'],
+    }))
+    .pipe(gulp.dest('app')) // output files in app folder
+    .pipe(browserSync.reload({ // browser refresh
+      stream: true,
+    }));
 });
 
 gulp.task('sass', () => {
@@ -36,9 +48,9 @@ gulp.task('sass', () => {
 });
 
 gulp.task('watch', () => { // Watchers
+  gulp.watch('app/**/*.nunjucks', ['nunjucks']);
   gulp.watch('app/scss/**/*.scss', ['sass']);
-  // Reload browser whenever HTML or JS files change
-  gulp.watch('app/*.html', browserSync.reload);
+  // Reload browser whenever JS files change
   gulp.watch('app/js/**/*.js', browserSync.reload);
 });
 
@@ -70,9 +82,9 @@ gulp.task('clean:dist', () => { // delete dist folder whenever task is run
 /* Run sequences
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 gulp.task('default', (callback) => {
-  runSequence(['sass', 'browserSync'], 'watch', callback);
+  runSequence('nunjucks', ['sass', 'browserSync'], 'watch', callback);
 });
 
 gulp.task('build', (callback) => {
-  runSequence('clean:dist', 'sass', ['useref', 'images'], callback);
+  runSequence('clean:dist', 'nunjucks', 'sass', ['useref', 'images'], callback);
 });
