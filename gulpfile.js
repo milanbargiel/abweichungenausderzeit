@@ -39,7 +39,7 @@ gulp.task('sass', () => {
   gulp.src('app/scss/**/*.scss')
     .pipe(sass({ // Convert SCSS to CSS with gulp-sass, include susy, log errors to console
       outputStyle: 'compressed',
-      includePaths: ['node_modules/susy/sass'],
+      includePaths: ['node_modules/bootstrap-sass-grid/sass'],
     }).on('error', sass.logError))
     .pipe(autoprefixer({ // automatically add vendor prefixes
       browsers: ['last 2 version'],

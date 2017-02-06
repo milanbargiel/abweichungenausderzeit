@@ -1,19 +1,4 @@
-@import "susy";
-
-$susy: (
-  math: fluid,
-  global-box-sizing: border-box,
-  columns: 12,
-  column-width: 7.2rem,
-  // gutters: gutter-width / column-width
-  gutters: 2 / 3,
-  debug: (
-    image: show,
-  ),
-);
-
 body {
-  @include container($susy);
   color: #222;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
