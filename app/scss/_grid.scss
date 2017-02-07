@@ -1,19 +1,28 @@
-@import 'bootstrap-sass-grid';
+@import 'vendor/bootstrap-sass-grid';
+
+$dist-lg: 66px;
+$dist-md: 44px;
+$dist-sm: 22px;
+$dist-xs: 11px;
+
+.content {
+  padding: 0 $dist-xs;
+}
 
 .container-fluid {
   max-width: 960px;
-  padding: 0 11px;
+  padding: 0;
 }
 
 .header {
-  margin: 66px 0;
+  margin: $dist-lg 0;
 }
 
 .introduction {
-  margin-bottom: 44px;
+  margin-bottom: $dist-md;
   width: 74%;
 }
 
 .grid-item {
-  margin-bottom: 44px;
+  margin-bottom: $dist-md;
 }

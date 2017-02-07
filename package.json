@@ -28,7 +28,5 @@
     "gulp-useref": "^3.1.2",
     "run-sequence": "^1.2.2"
   },
-  "dependencies": {
-    "bootstrap-sass-grid": "^4.0.1"
-  }
+  "dependencies": {}
 }

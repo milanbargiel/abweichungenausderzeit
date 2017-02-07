@@ -28,8 +28,10 @@
 </head>
 <body>
     
-    <div class="container-fluid">
-        {% block content %} {% endblock %}
+    <div class="content">
+        <div class="container-fluid">
+            {% block content %} {% endblock %}
+        </div>
     </div>
 
     
