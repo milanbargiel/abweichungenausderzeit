@@ -1,4 +1,7 @@
 @import 'vendor/normalize';
-@import 'vendor/bootstrap-grid/bootstrap-grid';
-@import 'grid';
+
+@import 'variables'; // own variables, override bootstraps defaults
+@import 'vendor/bootstrap/bootstrap-grid';
+
 @import 'base';
+@import 'spacing';
