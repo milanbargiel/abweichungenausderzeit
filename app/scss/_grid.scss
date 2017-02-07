@@ -1,5 +1,3 @@
-@import 'vendor/bootstrap-sass-grid';
-
 $dist-lg: 66px;
 $dist-md: 44px;
 $dist-sm: 22px;
@@ -20,7 +18,10 @@ $dist-xs: 11px;
 
 .introduction {
   margin-bottom: $dist-md;
-  width: 74%;
+
+  @include media-breakpoint-up(md) {
+    width: 74%;
+  }
 }
 
 .grid-item {

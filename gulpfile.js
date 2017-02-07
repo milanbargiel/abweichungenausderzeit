@@ -1,6 +1,5 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
-const autoprefixer = require('gulp-autoprefixer'); // automatically add vendor prefixes
 const browserSync = require('browser-sync').create();
 const useref = require('gulp-useref'); // js + css concatenation (make 1 file)
 const uglify = require('gulp-uglify'); // js minification
@@ -12,6 +11,10 @@ const del = require('del'); // clean/delete unused files
 const runSequence = require('run-sequence'); // specify sequence of tasks
 const babel = require('gulp-babel'); // transpile es6 to es5 (no module support)
 const nunjucksRender = require('gulp-nunjucks-render'); // template engine
+// postcss
+const postcss = require('gulp-postcss');
+const autoprefixer = require('autoprefixer'); // automatically add vendor prefixes
+const flexbugs = require('postcss-flexbugs-fixes'); // flexbox fixes
 
 /* Development tasks
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -36,14 +39,13 @@ gulp.task('nunjucks', () => { // build html files from templates and partials
 });
 
 gulp.task('sass', () => {
+  const processors = [
+    autoprefixer({ browsers: ['Chrome >= 35', 'Firefox >= 38', 'Edge >= 12', 'Explorer >= 10', 'iOS >= 8', 'Safari >= 8', 'Android 2.3', 'Android >= 4', 'Opera >= 12'] }),
+    flexbugs,
+  ];
   gulp.src('app/scss/**/*.scss')
-    .pipe(sass({ // Convert SCSS to CSS with gulp-sass, include susy, log errors to console
-      outputStyle: 'compressed',
-      includePaths: ['node_modules/bootstrap-sass-grid/sass'],
-    }).on('error', sass.logError))
-    .pipe(autoprefixer({ // automatically add vendor prefixes
-      browsers: ['last 2 version'],
-    }))
+    .pipe(sass().on('error', sass.logError)) // Convert SCSS to CSS with gulp-sass, log errors to console
+    .pipe(postcss(processors))
     .pipe(gulp.dest('app/css'))
     .pipe(browserSync.reload({ // browser refresh
       stream: true,
