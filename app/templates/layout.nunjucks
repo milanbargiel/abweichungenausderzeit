@@ -27,14 +27,18 @@
     <link rel="icon" type="image/png" href="images/favicon.ico">
 </head>
 <body>
-    
+
     <div class="content">
         <div class="container-fluid">
             {% block content %} {% endblock %}
-        </div>
-    </div>
+            
+            <div class="footer">
+              Diplomarbeit von <a class="footer__email" href="#">Maurits Boettger</a>, Kunsthochschule für Medien, 2017, betreut von Karin Lingnau, Georg Trogemann, Peter Pexte
+          </div>
+      </div>
+  </div>
 
-    
+
     <!-- JS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <!--build:js js/main.min.js -->

@@ -2,15 +2,20 @@ h1 {
   font-size: $font-size-h1;
   font-weight: 800;
   letter-spacing: -1px;
-  margin: 0 0 $dist-md;
+  margin-bottom: $dist-md;
 
   @include media-breakpoint-up(md) {
     width: 61%;
   }
 }
 
+h2 {
+  font-size: $font-size-h2;
+  margin: $dist-lg 0 $dist-sm;
+}
+
 p {
-  margin: 0 0 2.8rem;
+  margin: 0 0 $dist-sm;
 
   @include media-breakpoint-up(md) {
     width: 61%;
@@ -19,7 +24,7 @@ p {
 
 .quote-container {
   @include clearfix;
-  margin-bottom: $dist-md;
+  margin: $dist-md 0;
 }
 
 .quote {
@@ -43,4 +48,69 @@ p {
   &:hover {
     text-decoration: underline;
   }
+}
+
+.link {
+  color: $grey;
+
+  &:hover {
+    color: $hover-color;
+  }
+}
+
+.image-container {
+  @include clearfix;
+  margin: $dist-md 0;
+
+  .image {
+    display: block;
+    width: 100%;
+
+    &--xs {
+      @include media-breakpoint-up(md) {
+        width: 42%;
+      }
+    }
+
+    &--small {
+      @include media-breakpoint-up(md) {
+        width: 62%;
+      }
+    }
+
+    &--medium {
+      @include media-breakpoint-up(md) {
+        width: 82%;
+      }
+    }
+
+    &--large {
+      @include media-breakpoint-up(md) {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.video-container {
+  margin: $dist-md 0;
+  padding-bottom: 56.25%; // aspect ratio 16:9
+  position: relative;
+
+  @include media-breakpoint-up(md) {
+    width: 82%;
+  }
+
+  iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
+.divider {
+  border-bottom: 1px solid $grey-light;
+  margin: $dist-lg 0;
 }
