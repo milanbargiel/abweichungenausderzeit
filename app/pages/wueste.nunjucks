@@ -9,12 +9,20 @@
 </nav>
 
 <article>
-  <div class="body-left">
-    <h1>Wüste</h1>
-    <p>
-      Was hat die Wüste mit Zeit zu tun? Was hat die Kunst mit der Wüste zu tun? Ist die Wüste der Größte Zeitvorrat? Ist die Wüste eine riesige Sanduhr?
-    </p>
+  <h1>Wüste</h1>
+  <div class="quote-container">
+    <div class="quote">
+      „Nur das Sonnenlicht hält die Dinge zusammen. der Mittag ist die kritische Stunde: die Wüste enthüllt sich nackt und grausam, ohne Bedeutung außer ihrer eigenen Existenz“
+    </div>
+    <a class="caption" href="#">Edward Abbey, Desert Solitaire, Seite 35</a>
   </div>
+  <p>
+    Was hat die Wüste mit Zeit zu tun? Was hat die Kunst mit der Wüste zu tun? Ist die Wüste der Größte Zeitvorrat? Ist die Wüste eine riesige Sanduhr?
+  </p>
+  <p>
+    Eine Geologin, die ich in der vermeintlichen Wüste in Chile traf, sagte mir die Wüste definiert sich als Ort, an dem es kein Leben gibt. Es sei aber so, dass es auf der Erde keinen Ort ohne Leben Gäbe und deshalb auch keine Wüste. Glücklicherweise waren die Orte die ich besuchte dennoch wüst genug für meine Beobachtungen und Aufnahmen. Mir war es wichtig kulturlose Orte zu besuchen. Orte an denen sich nichts menschengemachtes vorfindet.
+    eigentlich wollte ich der abstrakten Zeit, der von Menschen festgelegten "Uhrenzeit" entfliehen. Ich hatte das Gefühl, dass diese Zeit die so unaufhaltsam gleichmäßig verfließt mich einengt, da sie keine Abweichungen zulässt. wir sind ihr ausgeliefert. festgelegte Termine werden verpasst wenn man sich nicht der Zeit unterordnet. entfliehen wollte ich an Orte an denen es nichts Menschengemachtes gibt um zu prüfen ob die Zeit da kulanter ist und mir mehr Freiheiten einräumt. Die Reise führte mich also in verschiedene Wüsten. Was ich feststellen musste war jedoch, dass die natürliche Zeit noch viel erbarmungsloser ist als die von Menschen gemachte. Gerade in den Wüsten wo die klimatischen Bedingungen nicht menschenfreundlich sind muss man sich ständig der aktuellen Tageszeit anpassen. Nachts sank die Temperatur auf minus 15 grad celsius und tagsüber stieg sie auf 35. Die angenehmen Stunden waren kurz. Dazu kommt starke Sonneneinstrahlung (die für das schnellere altern der Haut verantwortlich gemacht wird), Wwind und Staub. Nicht umsonst ist das spanische Wort für Zeit und Wetter das gleiche, da sich ja an der Veränderung des Wetters oder des Klimas Zeit erfahren lässt. Bliebe alles gleich gäbe es auch keine Erfahrung von Zeit. Diese natürliche Zeit wird in der Stadt kaum noch erlebt. So ist meine Flucht eine Flucht vor der Flucht in die Stadt, in eine künstliche Zeit die nicht mehr an Tag und Nacht gebunden ist eine Zeit in der es Schattenspender, Heizungen, Klimaanlagen und vorallem Wände gibt die Räume abgranzen innerhalb deren andere Bedingungen als die äußeren geschaffen weden können.
+  </p>
 </article>
 
 {% endblock %}

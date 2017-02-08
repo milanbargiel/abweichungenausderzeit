@@ -3,12 +3,44 @@ h1 {
   font-weight: 800;
   letter-spacing: -1px;
   margin: 0 0 $dist-md;
+
+  @include media-breakpoint-up(md) {
+    width: 61%;
+  }
 }
 
 p {
-  margin: 0 0 $dist-sm;
+  margin: 0 0 2.8rem;
+
+  @include media-breakpoint-up(md) {
+    width: 61%;
+  }
 }
 
-.body-left {
+.quote-container {
+  @include clearfix;
+  margin-bottom: $dist-md;
+}
 
+.quote {
+  font-size: 2.4rem;
+  line-height: 1.25;
+
+  @include media-breakpoint-up(md) {
+    width: 82%;
+  }
+}
+
+.caption {
+  color: $grey-dark;
+  cursor: pointer;
+  float: left;
+  font-size: 1.2rem;
+  line-height: 1.1;
+  margin-top: 1.1rem;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
