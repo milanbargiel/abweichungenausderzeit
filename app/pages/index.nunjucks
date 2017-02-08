@@ -4,7 +4,10 @@
 
 {% block content %}
 
-{% include "partials/header.nunjucks" %}
+<nav> 
+  <span class="header js-shuffle">ABWEICHUNGEN<br>VON DER ZEIT</span>
+</nav>
+
 <div class="introduction">
   <span class="dropcap">M</span>
   <div>

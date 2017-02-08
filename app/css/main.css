@@ -1216,6 +1216,7 @@ body {
 
 .header {
   color: #222;
+  cursor: pointer;
   font-weight: 600;
   line-height: 1;
   text-decoration: none; }
@@ -1309,7 +1310,7 @@ body {
       width: 74%; } }
 
 .grid {
-  margin-bottom: 6.6rem; }
+  margin-bottom: 2.2rem; }
 
 .grid-item {
   margin-bottom: 4.4rem; }

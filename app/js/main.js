@@ -1,9 +1,21 @@
-/* Masonry
+/* Isotope (Masonry + Shuffle)
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 $(document).ready(() => {
-  $('.grid').masonry({
+  const $grid = $('.grid');
+
+  $grid.isotope({
     itemSelector: '.grid-item',
-    columnWidth: '.grid-sizer',
     percentPosition: true,
+    masonry: {
+      // use element for option
+      columnWidth: '.grid-sizer',
+    },
+  });
+
+  $grid.isotope('shuffle');
+
+  // bind click event to header
+  $('.js-shuffle').on('click', () => {
+    $grid.isotope('shuffle');
   });
 });
