@@ -3,7 +3,18 @@
 {% extends "layout.nunjucks" %}
 
 {% block content %}
+
 <nav> 
   <a class="header" href="/">ABWEICHUNGEN<br>VON DER ZEIT</a>
 </nav>
+
+<article>
+  <div class="body-left">
+    <h1>Wüste</h1>
+    <p>
+      Was hat die Wüste mit Zeit zu tun? Was hat die Kunst mit der Wüste zu tun? Ist die Wüste der Größte Zeitvorrat? Ist die Wüste eine riesige Sanduhr?
+    </p>
+  </div>
+</article>
+
 {% endblock %}

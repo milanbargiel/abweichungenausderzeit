@@ -9,13 +9,13 @@
   <span class="header js-shuffle">ABWEICHUNGEN<br>VON DER ZEIT</span>
 </nav>
 
-<div class="introduction">
-  <span class="dropcap">M</span>
+<div class="introduction teaser">
+  <span class="introduction__dropcap">M</span>
   <div>
     einer Arbeit zur Zeit möchte ich ein kleines Gedankenspiel voranstelllen:
     Als Kind hatte ich mir einmal ausgemalt, dass wenn ich rückwärts denken könnte es mir möglich wäre die Zeit zurückspulen zu können. Aus Hallo wird ollaH usw. Ich nahm meine Stimme auf, spielte sie rückwärts ab und ahmte das gehörte nach..
   </div>
-  <a class="teaser-readmore" href="#">WEITERLESEN</a>
+  <a class="teaser__readmore" href="#">WEITERLESEN</a>
 </div>
 
 <div class="grid row">
