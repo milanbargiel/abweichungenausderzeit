@@ -1,6 +1,4 @@
 <!-- wueste.nunjucks -->
-{% import "macros.nunjucks" as element %}
-
 {% set title = 'Wüste | Abweichungen von der Zeit' %}
 {% extends "layout.nunjucks" %}
 
@@ -96,18 +94,6 @@
   </div>
 </article>
 
-<div class="divider"></div>
-
-<div class="grid row">
-  <!-- Masonry columnWidth sizer -->
-  <div class="grid-sizer col-sm-6 col-md-4"></div>
-
-  {% call element.textualteaser('Einleitung', '#') -%}
-  Meiner Arbeit zur Zeit möchte ich ein kleines Gedankenspiel voranstelllen: Als Kind hatte ich mir einmal ausgemalt, dass wenn ich rückwärts denken könnte es mir möglich wäre die Zeit zurückspulen zu können. Aus Hallo wird ollaH usw. Ich nahm meine Stimme auf, spielte sie rückwärts ab und ahmte das gehörte nach..
-  {%- endcall %}
-
-  {% include "teaseritems.nunjucks" %}
-
-</div>
+{% include "endmenu.nunjucks" %}
 
 {% endblock %}

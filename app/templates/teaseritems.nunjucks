@@ -1,5 +1,9 @@
 {% import "macros.nunjucks" as element %}
 
+{% call element.textualteaser('Messen und Wahrnehmen</br>von Zeit', '/messen-und-wahrnehmen-von-zeit.html') -%}
+Um Zeit Messen zu können braucht man zuallererst eine Definition von Zeit. In unserem Alltag definiert sich die Zeit, dass die Zeit, als etwas unumkerhrbares und gleichförmig voranschreitendes. Dann wird in der Natur nach Vorgängen gesucht, die diesem Ideal möglichst nahe kommen, messbar und zählbar sind..
+{%- endcall %}
+
 {% call element.textualteaser('Positionierte vs.</br> fluide Zeit', '#') -%}
 die Zeit ist eine Nervenbahn: scheinbar durchgehend, aus der Ferne betrachtet, aber unterbrochen, wenn man genau hinsieht, mit mikroskopischen spalten zwischen den einzelnen Fasern..
 {%- endcall %}

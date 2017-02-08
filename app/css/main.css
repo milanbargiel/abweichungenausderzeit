@@ -1245,7 +1245,7 @@ body {
   .footer__email {
     color: #777; }
     .footer__email:hover {
-      color: #9b9b9b; }
+      color: crimson; }
 
 .introduction {
   margin-bottom: 4.4rem; }
@@ -1319,6 +1319,7 @@ h1 {
   font-size: 4.4rem;
   font-weight: 800;
   letter-spacing: -1px;
+  line-height: 1;
   margin-bottom: 4.4rem; }
   @media (min-width: 768px) {
     h1 {
@@ -1334,6 +1335,12 @@ p {
     p {
       width: 61%; } }
 
+sup a {
+  color: #4a4a4a;
+  text-decoration: none; }
+  sup a:hover {
+    color: crimson; }
+
 .quote-container {
   margin: 4.4rem 0; }
   .quote-container::after {
@@ -1343,7 +1350,7 @@ p {
 
 .quote {
   font-size: 2.4rem;
-  line-height: 1.25; }
+  line-height: 1.4; }
   @media (min-width: 768px) {
     .quote {
       width: 82%; } }
@@ -1362,7 +1369,7 @@ p {
 .link {
   color: #777; }
   .link:hover {
-    color: #9b9b9b; }
+    color: crimson; }
 
 .image-container {
   margin: 4.4rem 0; }
@@ -1399,6 +1406,11 @@ p {
     position: absolute;
     top: 0;
     width: 100%; }
+
+.references {
+  margin: 4.4rem 0; }
+  .references li {
+    margin-bottom: 1.1rem; }
 
 .divider {
   border-bottom: 1px solid #e4e4e4;
