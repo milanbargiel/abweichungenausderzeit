@@ -1,9 +1,5 @@
-$dist-lg: 66px;
-$dist-md: 44px;
-$dist-sm: 22px;
-$dist-xs: 11px;
-
 .content {
+  overflow: hidden;
   padding: 0 $dist-xs;
 }
 
@@ -13,10 +9,22 @@ $dist-xs: 11px;
 }
 
 .header {
+  display: block;
   margin: $dist-lg 0;
 }
 
+.teaser-header {
+  display: block;
+  margin-bottom: 1.2rem;
+}
+
+.teaser-readmore {
+  float: right;
+  margin-top: .9rem;
+}
+
 .introduction {
+  @include clearfix;
   margin-bottom: $dist-md;
 
   @include media-breakpoint-up(md) {
@@ -24,6 +32,18 @@ $dist-xs: 11px;
   }
 }
 
+.grid {
+  margin-bottom: $dist-lg;
+}
+
 .grid-item {
   margin-bottom: $dist-md;
+}
+
+.footer {
+  margin-bottom: $dist-xs;
+
+  @include media-breakpoint-up(md) {
+    float: right;
+  }
 }

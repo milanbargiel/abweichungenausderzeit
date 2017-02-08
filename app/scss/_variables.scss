@@ -1,2 +1,18 @@
 // Bootstrap Overrides
-$grid-gutter-width-base: 44px;
+$grid-gutter-width-base: 4.4rem;
+
+// Spacing
+$dist-lg: 6.6rem;
+$dist-md: 4.4rem;
+$dist-sm: 2.2rem;
+$dist-xs: 1.11rem;
+
+// Colors
+$black: #222;
+$grey: #777;
+$hover-color: #dc143c;
+
+// Font
+$base-font: -apple-system, system-ui, BlinkMacSystemFont, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size: 1.4em; // currently ems cause chrome bug misinterpreting rems on body element
+$line-height: 1.6;

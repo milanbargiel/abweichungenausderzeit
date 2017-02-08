@@ -216,24 +216,24 @@ html {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding-right: 22px;
-  padding-left: 22px; }
+  padding-right: 2.2rem;
+  padding-left: 2.2rem; }
   @media (min-width: 576px) {
     .container {
-      padding-right: 22px;
-      padding-left: 22px; } }
+      padding-right: 2.2rem;
+      padding-left: 2.2rem; } }
   @media (min-width: 768px) {
     .container {
-      padding-right: 22px;
-      padding-left: 22px; } }
+      padding-right: 2.2rem;
+      padding-left: 2.2rem; } }
   @media (min-width: 992px) {
     .container {
-      padding-right: 22px;
-      padding-left: 22px; } }
+      padding-right: 2.2rem;
+      padding-left: 2.2rem; } }
   @media (min-width: 1200px) {
     .container {
-      padding-right: 22px;
-      padding-left: 22px; } }
+      padding-right: 2.2rem;
+      padding-left: 2.2rem; } }
   @media (min-width: 576px) {
     .container {
       width: 540px;
@@ -255,24 +255,24 @@ html {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding-right: 22px;
-  padding-left: 22px; }
+  padding-right: 2.2rem;
+  padding-left: 2.2rem; }
   @media (min-width: 576px) {
     .container-fluid {
-      padding-right: 22px;
-      padding-left: 22px; } }
+      padding-right: 2.2rem;
+      padding-left: 2.2rem; } }
   @media (min-width: 768px) {
     .container-fluid {
-      padding-right: 22px;
-      padding-left: 22px; } }
+      padding-right: 2.2rem;
+      padding-left: 2.2rem; } }
   @media (min-width: 992px) {
     .container-fluid {
-      padding-right: 22px;
-      padding-left: 22px; } }
+      padding-right: 2.2rem;
+      padding-left: 2.2rem; } }
   @media (min-width: 1200px) {
     .container-fluid {
-      padding-right: 22px;
-      padding-left: 22px; } }
+      padding-right: 2.2rem;
+      padding-left: 2.2rem; } }
 
 .row {
   display: -webkit-box;
@@ -282,24 +282,24 @@ html {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-  margin-right: -22px;
-  margin-left: -22px; }
+  margin-right: -2.2rem;
+  margin-left: -2.2rem; }
   @media (min-width: 576px) {
     .row {
-      margin-right: -22px;
-      margin-left: -22px; } }
+      margin-right: -2.2rem;
+      margin-left: -2.2rem; } }
   @media (min-width: 768px) {
     .row {
-      margin-right: -22px;
-      margin-left: -22px; } }
+      margin-right: -2.2rem;
+      margin-left: -2.2rem; } }
   @media (min-width: 992px) {
     .row {
-      margin-right: -22px;
-      margin-left: -22px; } }
+      margin-right: -2.2rem;
+      margin-left: -2.2rem; } }
   @media (min-width: 1200px) {
     .row {
-      margin-right: -22px;
-      margin-left: -22px; } }
+      margin-right: -2.2rem;
+      margin-left: -2.2rem; } }
 
 .no-gutters {
   margin-right: 0;
@@ -313,24 +313,24 @@ html {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 22px;
-  padding-left: 22px; }
+  padding-right: 2.2rem;
+  padding-left: 2.2rem; }
   @media (min-width: 576px) {
     .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
-      padding-right: 22px;
-      padding-left: 22px; } }
+      padding-right: 2.2rem;
+      padding-left: 2.2rem; } }
   @media (min-width: 768px) {
     .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
-      padding-right: 22px;
-      padding-left: 22px; } }
+      padding-right: 2.2rem;
+      padding-left: 2.2rem; } }
   @media (min-width: 992px) {
     .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
-      padding-right: 22px;
-      padding-left: 22px; } }
+      padding-right: 2.2rem;
+      padding-left: 2.2rem; } }
   @media (min-width: 1200px) {
     .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
-      padding-right: 22px;
-      padding-left: 22px; } }
+      padding-right: 2.2rem;
+      padding-left: 2.2rem; } }
 
 .col {
   -webkit-flex-basis: 0;
@@ -1204,25 +1204,118 @@ html {
   .offset-xl-11 {
     margin-left: 91.66667%; } }
 
+html {
+  font-size: 62.5%; }
+
 body {
   color: #222;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.4em;
+  font-weight: 400;
+  line-height: 1.6; }
+
+.header {
+  color: #222;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none; }
+
+.teaser-header {
+  color: #222;
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none; }
+
+.teaser-readmore {
+  color: #777;
+  font-size: 1.1rem;
+  line-height: 1;
+  text-decoration: none; }
+
+.header:hover,
+.teaser-header:hover,
+.teaser-readmore:hover {
+  text-decoration: underline; }
+
+.dropcap {
+  float: left;
+  font-size: 4.4rem;
+  line-height: 1;
+  padding-right: .9rem; }
+
+.teaser-tile-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+
+.teaser-tile {
+  border: 1px solid #222;
+  color: #222;
+  line-height: 1.3;
+  margin-bottom: 3rem;
+  overflow-wrap: break-word;
+  padding: 1.4rem 1rem;
+  text-decoration: none;
+  width: 44%; }
+  .teaser-tile:nth-child(even) {
+    margin-left: 10%; }
+  .teaser-tile:nth-last-child(-n + 2) {
+    margin-bottom: 0; }
+  .teaser-tile:hover {
+    text-decoration: underline; }
+
+.footer {
+  color: #777;
+  font-size: 1.1rem;
+  line-height: 1.3; }
+  .footer__email {
+    color: #777; }
+    .footer__email:hover {
+      color: #dc143c; }
 
 .content {
-  padding: 0 11px; }
+  overflow: hidden;
+  padding: 0 1.11rem; }
 
 .container-fluid {
   max-width: 960px;
   padding: 0; }
 
 .header {
-  margin: 66px 0; }
+  display: block;
+  margin: 6.6rem 0; }
+
+.teaser-header {
+  display: block;
+  margin-bottom: 1.2rem; }
+
+.teaser-readmore {
+  float: right;
+  margin-top: .9rem; }
 
 .introduction {
-  margin-bottom: 44px; }
+  margin-bottom: 4.4rem; }
+  .introduction::after {
+    display: block;
+    content: "";
+    clear: both; }
   @media (min-width: 768px) {
     .introduction {
       width: 74%; } }
 
+.grid {
+  margin-bottom: 6.6rem; }
+
 .grid-item {
-  margin-bottom: 44px; }
+  margin-bottom: 4.4rem; }
+
+.footer {
+  margin-bottom: 1.11rem; }
+  @media (min-width: 768px) {
+    .footer {
+      float: right; } }

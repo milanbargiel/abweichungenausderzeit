@@ -1,6 +1,4 @@
 <!-- header.nunjucks -->
-<nav class="header"> 
-  <a href="#">
-    Abweichungen<br> von der Zeit
-  </a>
+<nav> 
+  <a class="header" href="#">ABWEICHUNGEN<br>VON DER ZEIT</a>
 </nav>
