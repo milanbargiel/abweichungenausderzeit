@@ -1,0 +1,9 @@
+<!-- wueste.nunjucks -->
+{% set title = 'Wüste | Abweichungen von der Zeit' %}
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+<nav> 
+  <a class="header" href="/">ABWEICHUNGEN<br>VON DER ZEIT</a>
+</nav>
+{% endblock %}
