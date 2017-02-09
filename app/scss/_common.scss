@@ -20,6 +20,7 @@ body {
 }
 
 .container-fluid {
+  @include clearfix;
   max-width: 960px;
   padding: 0;
 }
@@ -35,15 +36,16 @@ body {
   text-decoration: none;
 
   &:hover {
+    color: $black;
     text-decoration: underline;
   }
 }
 
 .footer {
   color: $grey;
-  font-size: 1.1rem;
+  font-size: $font-size-xs;
   line-height: 1.3;
-  margin-bottom: $dist-xs;
+  margin: $dist-sm 0 $dist-xs;
 
   @include media-breakpoint-up(md) {
     float: right;

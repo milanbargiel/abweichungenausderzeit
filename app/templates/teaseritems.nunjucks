@@ -8,8 +8,8 @@ Um Zeit Messen zu können braucht man zuallererst eine Definition von Zeit. In u
 die Zeit ist eine Nervenbahn: scheinbar durchgehend, aus der Ferne betrachtet, aber unterbrochen, wenn man genau hinsieht, mit mikroskopischen spalten zwischen den einzelnen Fasern..
 {%- endcall %}
 
-{% call element.textualteaser('Sand', '#') -%}
-Sand ist ein Material, das in direktem Zusammenhang mit der Zeit steht. Ja man könnte ihn fast als materialisierte Zet bezeichnen. Er entsteht auf natürliche Weise nur über lange Zeitspannen. Desweiteren wird er in Sanduhren für die Messung von Zeit eingesetzt. Sand ist nach Luft und Wasser der am dritthäufigst vertretene Rohstoff auf der Erde. DiegrößteMenge des vorhandenen Sandes ist Quarzsand..
+{% call element.textualteaser('Sand', '/sand.html') -%}
+Sand ist ein Material, das in direktem Zusammenhang mit der Zeit steht. Man könnte ihn fast als materialisierte Zeit bezeichnen. Auf natürliche Weise entsteht Sand nur in sehr langer Zeit...
 {%- endcall %}
 
 {% call element.textualteaser('Zeit im Bewegtbild, Standbild</br>und Text', '#') -%}

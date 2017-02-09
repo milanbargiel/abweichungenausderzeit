@@ -16,9 +16,18 @@ $hover-color: rgb(220, 20, 60);
 
 // Font
 $font-size-base: 1.7rem;
-$font-size-sm: 1.4rem;
+$font-size-sm: 1.4rem; // header, teaser-texts
+$font-size-xs: 1.1rem; // footer
 $font-size-h1: 4.4rem;
-$font-size-h2: 2.1rem;
+$font-size-h2: 2.7rem;
+$font-size-quote: 2.4rem;
+$font-size-caption: 1.2rem;
 
 $base-font: -apple-system, system-ui, BlinkMacSystemFont, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $line-height: 1.6;
+
+// Width
+$width-xs: 38%;
+$width-article-row: 61%;
+$width-medium: 82%;
+$width-large: 100%;

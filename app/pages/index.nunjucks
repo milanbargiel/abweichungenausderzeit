@@ -1,11 +1,11 @@
 <!-- index.nunjucks -->
-{% set title = 'Abweichungen von der Zeit' %}
+{% set title = 'Abweichungen aus der Zeit' %}
 {% extends "layout.nunjucks" %}
 
 {% block content %}
 
 <nav> 
-  <span class="header js-shuffle">ABWEICHUNGEN<br>VON DER ZEIT</span>
+  <span class="header js-shuffle">ABWEICHUNGEN<br>AUS DER ZEIT</span>
 </nav>
 
 <div class="introduction teaser">
@@ -14,13 +14,14 @@
     einer Arbeit zur Zeit möchte ich ein kleines Gedankenspiel voranstelllen:
     Als Kind hatte ich mir einmal ausgemalt, dass wenn ich rückwärts denken könnte es mir möglich wäre die Zeit zurückspulen zu können. Aus Hallo wird ollaH usw. Ich nahm meine Stimme auf, spielte sie rückwärts ab und ahmte das gehörte nach..
   </div>
-  <a class="teaser__readmore" href="#">WEITERLESEN</a>
+  <a class="teaser__readmore" href="einleitung.html">WEITERLESEN</a>
 </div>
 
 <div class="grid row">
   <!-- Masonry columnWidth sizer -->
   <div class="grid-sizer col-sm-6 col-md-4"></div>
-
+  
+  <!-- Include teaser elements from template -->
   {% include "teaseritems.nunjucks" %}
 
 </div>

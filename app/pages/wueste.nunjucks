@@ -1,11 +1,11 @@
 <!-- wueste.nunjucks -->
-{% set title = 'Wüste | Abweichungen von der Zeit' %}
+{% set title = 'Wüste | Abweichungen aus der Zeit' %}
 {% extends "layout.nunjucks" %}
 
 {% block content %}
 
 <nav> 
-  <a class="header" href="/">ABWEICHUNGEN<br>VON DER ZEIT</a>
+  <a class="header" href="/">ABWEICHUNGEN<br>AUS DER ZEIT</a>
 </nav>
 
 <article>
@@ -61,7 +61,7 @@
     <a class="caption" href="#">Marina Abramovic in Ausstellungskatalog Innsbruck 1978, o.S</a>
   </div>
   <p>
-    In einer solchen Starre gehen die Bezugspunkte in der linearen Zeit verloren, das Erleben des Moments tritt in den Vordergrund. Die Orientierungslosigkeit, wie sie leicht in der Wüste entsteht ( <a class="link" href="#">Link Sand</a> ) ist nicht nur räumlich, sondern scheint sich auf die Zeit zu übertragen. Die Gedanken gleiten unter Einfluss extremer Naturbedingungen ab, lassen sich nicht mehr greifen. Man kann anhand eines Schattens einen Zeitpunkt feststellen, aber was nützt er hier schon? Und im nächsten Moment ist er wieder vergessen.
+    In einer solchen Starre gehen die Bezugspunkte in der linearen Zeit verloren, das Erleben des Moments tritt in den Vordergrund. Die Orientierungslosigkeit, wie sie leicht in der Wüste entsteht ( <a href="#">Link Sand</a> ) ist nicht nur räumlich, sondern scheint sich auf die Zeit zu übertragen. Die Gedanken gleiten unter Einfluss extremer Naturbedingungen ab, lassen sich nicht mehr greifen. Man kann anhand eines Schattens einen Zeitpunkt feststellen, aber was nützt er hier schon? Und im nächsten Moment ist er wieder vergessen.
   </p>
   <div class="quote-container">
     <div class="quote">
@@ -79,14 +79,14 @@
     <a class="caption" href="#">Vgl. Kunst und Zeit, Paflik-Huber, Seite 81</a>
   </div>
   <div class="image-container">
-    <img class="image image--medium" src="images/sun-tunnels-nancy-holt.jpg" alt="Die Installation Sun Tunnels von Nancy Holt">
+    <img class="image-medium" src="images/sun-tunnels-nancy-holt.jpg" alt="Die Installation Sun Tunnels von Nancy Holt">
     <a class="caption" href="#">Sun Tunnels, Nancy Holt</a>
   </div>
   <p>
     Gerrit van Bakels Tarim Machine bewegt sich mit einer Geschwindigkeit von 18mm pro Tag durch das 1100km lange Tarimbecken im Westen der Volksrepublik China. Der Roboter schafft durch seine langame Bewegung Bezug zur Zeit der Wüstenlandschaft. Für den Menschlichen Betrachter scheint er sich nicht zu bewegen und doch befindet er sich am nächsten Tag ein Stückchen weiter. Die Veränderung der Position ist aber schwer zu erkennen, da es wenige Anhaltspunkte in der kargen Gegend gibt. Es ist schwer zu sagen, ob sich der Sand oder die Maschine selbst bewegt hat.
   </p>
   <div class="image-container">
-    <img class="image image--xs" src="images/tarim-machine-gerrit-van-bakel.jpg" alt="Tarim Machine von Gerrit van Bakel">
+    <img class="image-xs" src="images/tarim-machine-gerrit-van-bakel.jpg" alt="Tarim Machine von Gerrit van Bakel">
     <a class="caption" href="#">Sun Tunnels, Nancy Holt</a>
   </div>
   <div class="video-container">

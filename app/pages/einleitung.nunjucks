@@ -1,0 +1,87 @@
+<!-- einleitung.nunjucks -->
+{% set title = 'Einleitung | Abweichungen aus der Zeit' %}
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+<nav> 
+  <a class="header" href="/">ABWEICHUNGEN<br>AUS DER ZEIT</a>
+</nav>
+
+<article>
+  <h1>Einleitung</h1>
+  <div class="quote-container">
+    <div class="quote">
+      „Die Zeit ist wie der Tod und das Leben eines der Themen mit denen sich der Mensch zwangsläufig auseinandersetzen muss, da er fest an sie gebunden ist.“
+    </div>
+  </div>
+  <p>
+    Meiner Arbeit zur Zeit möchte ich ein kleines Gedankenspiel voranstelllen:
+  </p>
+  <p>
+    Als Kind hatte ich mir einmal ausgemalt, dass wenn ich rückwärts denken könnte, es mir möglich wäre die Zeit zurückspulen zu können. Aus Hallo wird ollaH usw. Ich nahm meine Stimme auf, spielte sie rückwärts ab und ahmte das gehörte nach. Wenn man die Zeit nicht als universell begreift, sondern als etwas, das vom Individuum ausgeht wäre das gar nicht so falsch. Unsere Gedanken haben eine zeitliche Reihenfolge genau wie die Dinge die von den Gedanken durch die Wahrnehmung erfasst werden. Wenn sich die Reihenfolge der ersteren umkehrt würde sich dann auch die Reihenfolge der Wahrgenommenen Dinge umkehren? So Weit bin ich damals nicht gekommen, aber ich hatte mir schon einen Plan zurecht gelegt wie es mir möglich wäre mich nach einer solchen Zeitreise wieder mit dem Rest der Welt zu synchronisieren, denn die selbe Methode hätte ja nicht für Reisen in die Zukunft funktioniert. Dazu hätte man einfach ein Palindrom sagen müssen. Ein Wort, das vorwärts und rückwärts gleich klingt würde mich wieder in die Gegenwart holen. Reliefpfeiler z.B. oder Lagerregal, Kayak o.Ä.
+  </p>
+  <p>
+    Die Logik dieses Gedankenspiel wirft bei genauerer Überlegung ein Paar Probleme auf, aber immerhin kann es dazu dienen, dass wir uns bewusst werden, wie stark wir nicht nur mit unserem äußeren Leben, sondern auch mit unseren Gedanken an eine Progression gebunden sind. Jeder gedachte Gedanke lenkt uns weiter in einer Richtung die nicht umzukehren ist. Gedachtes kann zwar vergessen, aber nicht ungedacht oder rückgedacht werden. Diese Tatsache hat mich in meinem Leben schon lange beschäftigt.
+    Der Gedanke an einen gleichmäßigen und gerichteten Zeitverlauf war mir schon immer ein unangenehmer. Dass die Zeit Ereignisse einreiht und man nicht beliebig zwischen ihnen hin- und herspringen kann, die Zeitrichtung nicht umkehren kann und die Zeit auch nicht anhalten kann hat mich schon oft geärgert. Die einzige Freiheit, die uns im Umgang mit Zeit gegeben ist, ist das Dehnen und Stauchen der subjektiven Zeitempfindung. Doch wer innerhalb einer Gesellschaft lebt die sich an einer gemeinsamen Uhrzeit orientiert gerät damit schnell in Schwierigkeiten.
+  </p>
+  <p>
+    Die Uhrzeit ist ein Konstrukt des Menschen, eine Konvention. Eine Idee, die mit Hilfe von Uhren basierend auf Naturphänomenen sichtbar gemacht wird. Das Zeitparadoxon (die Differenz zwischen der Uhrzeit und der subjektiv erlebten Zeit) hat mit Sicherheit jeder schon selbst erfahren.
+  </p>
+
+  <div class="quote-container">
+    <div class="quote">
+      „Eine Stunde mit einem hübschen Mädchen vergeht wie eine Minute, aber eine Minute auf einem heißen Ofen scheint eine Stunde zu dauern. Das ist Relativität.“
+    </div>
+    <a class="caption" href="#cite-note-1">Albert Einstein</a>
+  </div>
+
+  <p>
+    Dieses Extrembeispiel verdeutlicht nicht nur, was Relativität ist, sondern auch, wie die erlebte Dauer weit von der gemessenen Dauer, an der wir uns ja meistens orientieren, abweichen kann. Der Mensch als Wesen zweier Reiche ist auch Wesen zweier Zeitreiche, deren Abweichungen er immer wieder ausgleichen muss.
+  </p>
+  <p>
+    Edmund Husserl sagte in seinen Vorlesungen zur Phänomenologie des inneren Zeitbewusstseins:
+  </p>
+
+  <div class="quote-container">
+    <div class="quote">
+      „Sobald wir den Versuch machen, über das Zeitbewusstsein Rechenschaft zu geben, objektive Zeit und subjektives Zeitbewusstsein in das rechte Verhältnis zu setzen und uns zum Verständnis zu bringen, wie sich zeitliche Objektivität, also individuelle Objektivität Überhaupt, im subjektiven Zeitbewusstsein konstituieren kann, ja sowie wir auch nur den Versuch machen, das rein subjektive Zeitbewusstsein, den phänomelogischen Gehalt der Zeiterlebnisse einer Analyse unterziehen, verwickeln wir uns in die sonderbarsten Schwierigkeiten, Widersprüche, Verworrenheiten.“
+    </div>
+    <a class="caption" href="#cite-note-2">Vorlesungen zur Phänomenologie des inneren Zeitbewusstseins , Seite 368</a>
+  </div>
+
+  <p>
+    Diese Schwierigkeiten entstehen nicht nur beim Nachdenken über das Zeitbewusstsein, sondern können auch auf Ebene körperlicher und sozialer Ebene im realen Leben auftauchen, und zwar dann, wenn die Eigenzeit des Subjekts, nicht mehr mit der äußeren Zeit der Natur, der Uhr, oder der Gesellschaft übereinstimmt. Wie Lefebvre in seiner Rhythmanalysis feststellt müssen sich Körperliche Rhythmen ständig auf die Rhythmen der jeweiligen Umgebung anpassen und umgekehrt.
+  </p>
+  <p>
+    Im Laufe der Geschichte hat es in der Philosophie und in den Wissenschaften viele unterschiedliche Auffassungen von Zeit gegeben. In dieser Arbeit werde ich mich weniger mit historischen Zeitmodellen beschäftigen sondern mich vielmehr fragen. Wie gehen wir mit der Zeit um, die die wir haben? Sind wir der Zeit ausgeliefert oder beherrschen wir sie? Welche Möglichkeiten haben wir mit Zeit spielerisch umzugehen? Welche Möglichkeiten und welche Grenzen bietet und Kunst für den Umgang mit Zeit?
+    Ich gehe aus von zwei Zeitauffassungen: erstens der gleichförmigen voranschreitenden Uhrzeit, die vom Mensch erschaffen wurde und zweitens der erlebten, intuitiveren Zeit die etwas flexibler erscheint, die sich dehnen und stauchen lässt. In meiner künstlerischen Arbeit möchte ich Wechselwirkungen zwischen diesen beiden Zeiten erzeugen, sie miteinander verknüpfen,  voneinander abhängig machen. Der konzeptuellen gleichförmigen Zeit etwas flexibilität geben. So wie wir Menschen die Brücke zwischen diesen beiden Zeituniversen oszillieren, sollen es auch meine Arbeiten.
+  </p>
+  <p>
+    Vielleicht ist es auch nur der verzweifelte Versuch aus der linearen gleichmäßig vergehenden Zeit auszubrechen, der schon deshalb nicht funktionieren kann, weil die gleichmäßige Zeit nur ein Modell ist, das die Wissenschaft mit aller Kraft zu reproduzieren versucht, aber dazu später mehr.
+  </p>
+  <p>
+    Meine Herangehensweise ist es verschiedene Uhren zu entwickeln, die aus einer gleichmäßigen Zeit ausbrechen. Dazu zählen: Die geschleuderte Sanduhr. Die Sonnenuhr, die das Vergehen der Zeit verweigert. Die “Watch”, eine Uhr die stehenbleibt, wenn man sie anschaut und das Metronom, dass von einem Chaotischen Pendel aus seinem gleichmäßigen Gang gebracht wird.
+  </p>
+  <p>
+    In dieser Schriftlichen Arbeit werde ich immer wieder zu anderen künstlerischen Arbeiten verweisen, die im Zusammenhang mit meiner Arbeit interessant sind. Ich werde keine ausführlichen Interpretationen liefern, sondern den Leser per Link auf andere Fährten zu schicken, ihm die Möglichkeit bieten lateral abzudriften und sich auf Webseiten abseits dieser weiterzuklicken.
+  </p>
+  <p>
+    Ich werde einen Text schreiben, der sich nicht durchgängig flüssig Lesen lässt. So werde ich einige Überleitungen bewusst auslassen, so dass der Leser selbst Verknüpfungen zwischen den einzelnen Kapiteln oder Absätzen machen muss. Der Leser soll aktiv mitdenken und keinen abgeschlossenen Text vorgelegt bekommen der sich einfach so herunterliest. Ich selbst vergesse Texte denen ich bei Lesen zu leicht folgen kann innerhalb von Stunden oder Tagen wieder. Wenn ich selbst dazu aufgefordert bin mitzudenken beschäftige ich mich wesentlich länger mit dem Thema.
+  </p>
+  <p>
+    Da Vollständigkeit aufgrund von voranschreitender Zeit und stetiger, potentiell relevanter Materialzunahme unmöglich ist erhebt diese Arbeit nicht den Anspruch darauf.
+  </p>
+
+  <div class="references">
+    <h2>Referenzen:</h2>
+    <ol>
+      <li id="cite-note-1">Albert Einstein (<a target="_blank" href="http://www.zeit.de/2009/47/Vorbilder-Einstein">http://www.zeit.de/2009/47/Vorbilder-Einstein</a>)</li>
+      <li id="cite-note-2">Vorlesungen zur Phänomenologie des inneren Zeitbewusstseins , Seite 368</li>
+    </ol>
+  </div>
+</article>
+
+{% include "endmenu.nunjucks" %}
+
+{% endblock %}

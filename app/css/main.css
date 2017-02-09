@@ -1221,6 +1221,10 @@ body {
 .container-fluid {
   max-width: 960px;
   padding: 0; }
+  .container-fluid::after {
+    display: block;
+    content: "";
+    clear: both; }
 
 .header {
   color: #222;
@@ -1232,13 +1236,14 @@ body {
   margin: 6.6rem 0;
   text-decoration: none; }
   .header:hover {
+    color: #222;
     text-decoration: underline; }
 
 .footer {
   color: #777;
   font-size: 1.1rem;
   line-height: 1.3;
-  margin-bottom: 1.1rem; }
+  margin: 2.2rem 0 1.1rem; }
   @media (min-width: 768px) {
     .footer {
       float: right; } }
@@ -1262,9 +1267,6 @@ body {
     line-height: 1;
     padding-right: .9rem; }
 
-.grid {
-  margin-bottom: 2.2rem; }
-
 .grid-item {
   margin-bottom: 4.4rem; }
 
@@ -1275,7 +1277,7 @@ body {
     display: block;
     font-size: 1.7rem;
     font-weight: 600;
-    line-height: 1.2;
+    line-height: 1.3;
     margin-bottom: 1.2rem;
     text-decoration: none; }
   .teaser__readmore {
@@ -1300,13 +1302,13 @@ body {
   color: #222;
   font-size: 1.4rem;
   line-height: 1.3;
-  margin-bottom: 3rem;
+  margin-bottom: 3.2rem;
   overflow-wrap: break-word;
-  padding: 1.4rem 1rem;
+  padding: .9rem;
   text-decoration: none;
   width: 44%; }
   .teaser-tile:nth-child(even) {
-    margin-left: 10%; }
+    margin-left: 12%; }
   .teaser-tile:nth-last-child(-n + 2) {
     margin-bottom: 0; }
 
@@ -1314,6 +1316,10 @@ body {
 .teaser__readmore:hover,
 .teaser-tile:hover {
   text-decoration: underline; }
+
+.teaser__header:hover,
+.teaser-tile:hover {
+  color: #222; }
 
 h1 {
   font-size: 4.4rem;
@@ -1326,8 +1332,11 @@ h1 {
       width: 61%; } }
 
 h2 {
-  font-size: 2.1rem;
-  margin: 6.6rem 0 2.2rem; }
+  font-size: 2.7rem;
+  margin: 6.6rem 0 1.1rem; }
+  @media (min-width: 768px) {
+    h2 {
+      width: 61%; } }
 
 p {
   margin: 0 0 2.2rem; }
@@ -1335,11 +1344,14 @@ p {
     p {
       width: 61%; } }
 
+a {
+  color: #777; }
+  a:hover {
+    color: crimson; }
+
 sup a {
   color: #4a4a4a;
   text-decoration: none; }
-  sup a:hover {
-    color: crimson; }
 
 .quote-container {
   margin: 4.4rem 0; }
@@ -1364,12 +1376,8 @@ sup a {
   margin-top: 1.1rem;
   text-decoration: none; }
   .caption:hover {
+    color: #222;
     text-decoration: underline; }
-
-.link {
-  color: #777; }
-  .link:hover {
-    color: crimson; }
 
 .image-container {
   margin: 4.4rem 0; }
@@ -1377,21 +1385,29 @@ sup a {
     display: block;
     content: "";
     clear: both; }
-  .image-container .image {
-    display: block;
-    width: 100%; }
-    @media (min-width: 768px) {
-      .image-container .image--xs {
-        width: 42%; } }
-    @media (min-width: 768px) {
-      .image-container .image--small {
-        width: 62%; } }
-    @media (min-width: 768px) {
-      .image-container .image--medium {
-        width: 82%; } }
-    @media (min-width: 768px) {
-      .image-container .image--large {
-        width: 100%; } }
+
+.image-xs,
+.image-small,
+.image-medium,
+.image-large {
+  display: block;
+  width: 100%; }
+
+@media (min-width: 768px) {
+  .image-xs {
+    width: 38%; } }
+
+@media (min-width: 768px) {
+  .image-small {
+    width: 61%; } }
+
+@media (min-width: 768px) {
+  .image-medium {
+    width: 82%; } }
+
+@media (min-width: 768px) {
+  .image-large {
+    width: 82%; } }
 
 .video-container {
   margin: 4.4rem 0;

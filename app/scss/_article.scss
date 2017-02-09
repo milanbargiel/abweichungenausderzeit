@@ -6,20 +6,32 @@ h1 {
   margin-bottom: $dist-md;
 
   @include media-breakpoint-up(md) {
-    width: 61%;
+    width: $width-article-row;
   }
 }
 
 h2 {
   font-size: $font-size-h2;
-  margin: $dist-lg 0 $dist-sm;
+  margin: $dist-lg 0 $dist-xs;
+
+  @include media-breakpoint-up(md) {
+    width: $width-article-row;
+  }
 }
 
 p {
   margin: 0 0 $dist-sm;
 
   @include media-breakpoint-up(md) {
-    width: 61%;
+    width: $width-article-row;
+  }
+}
+
+a {
+  color: $grey;
+
+  &:hover {
+    color: $hover-color;
   }
 }
 
@@ -27,10 +39,6 @@ sup {
   a {
     color: $grey-dark;
     text-decoration: none;
-
-    &:hover {
-      color: $hover-color;
-    }
   }
 }
 
@@ -40,11 +48,11 @@ sup {
 }
 
 .quote {
-  font-size: 2.4rem;
+  font-size: $font-size-quote;
   line-height: 1.4;
 
   @include media-breakpoint-up(md) {
-    width: 82%;
+    width: $width-medium;
   }
 }
 
@@ -52,55 +60,51 @@ sup {
   color: $grey-dark;
   cursor: pointer;
   float: left;
-  font-size: 1.2rem;
+  font-size: $font-size-caption;
   line-height: 1.1;
   margin-top: 1.1rem;
   text-decoration: none;
 
   &:hover {
+    color: $black;
     text-decoration: underline;
-  }
-}
-
-.link {
-  color: $grey;
-
-  &:hover {
-    color: $hover-color;
   }
 }
 
 .image-container {
   @include clearfix;
   margin: $dist-md 0;
+}
 
-  .image {
-    display: block;
-    width: 100%;
+.image-xs,
+.image-small,
+.image-medium,
+.image-large {
+  display: block;
+  width: 100%;
+}
 
-    &--xs {
-      @include media-breakpoint-up(md) {
-        width: 42%;
-      }
-    }
+.image-xs {
+  @include media-breakpoint-up(md) {
+    width: $width-xs;
+  }
+}
 
-    &--small {
-      @include media-breakpoint-up(md) {
-        width: 62%;
-      }
-    }
+.image-small {
+  @include media-breakpoint-up(md) {
+    width: $width-article-row;
+  }
+}
 
-    &--medium {
-      @include media-breakpoint-up(md) {
-        width: 82%;
-      }
-    }
+.image-medium {
+  @include media-breakpoint-up(md) {
+    width: $width-medium;
+  }
+}
 
-    &--large {
-      @include media-breakpoint-up(md) {
-        width: 100%;
-      }
-    }
+.image-large {
+  @include media-breakpoint-up(md) {
+    width: $width-medium;
   }
 }
 
@@ -110,7 +114,7 @@ sup {
   position: relative;
 
   @include media-breakpoint-up(md) {
-    width: 82%;
+    width: $width-medium;
   }
 
   iframe {
