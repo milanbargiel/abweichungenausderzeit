@@ -1,0 +1,35 @@
+<!-- korfsche_uhr.nunjucks -->
+{% set title = 'Die Korfsche Uhr | Abweichungen aus der Zeit' %}
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+<nav> 
+  <a class="header" href="/">ABWEICHUNGEN<br>AUS DER ZEIT</a>
+</nav>
+
+<article>
+  <h1>Die Korfsche Uhr</h1>
+  <p class="quote">
+    Korf erfindet eine Uhr,</br>
+    die mit zwei Paar Zeigern kreist</br>
+    und damit nach vorn nicht nur,</br>
+    sondern auch nach rückwärts weist.
+  </p>
+  <p class="quote">
+    Zeigt sie zwei, somit auch zehn;</br>
+    zeigt sie drei, somit auch neun;</br>
+    und man braucht nur hinzusehn,</br>
+    um die Zeit nicht mehr zu scheun.
+  </p>
+  <p class="quote">
+    Denn auf dieser Uhr von Korfen,</br>
+    mit dem janushaften Lauf,</br>
+    (dazu ward sie so entworfen):</br>
+    hebt die Zeit sich selber auf.
+  </p>
+</article>
+
+{% include "endmenu.nunjucks" %}
+
+{% endblock %}

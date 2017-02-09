@@ -1,0 +1,24 @@
+<!-- watch.nunjucks -->
+{% set title = 'Watch | Abweichungen aus der Zeit' %}
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+<nav> 
+  <a class="header" href="/">ABWEICHUNGEN<br>AUS DER ZEIT</a>
+</nav>
+
+<article>
+  <h1>Watch</h1>
+  <p>
+    Ist eine Digitale Uhr mit Siebensegmentanzeige wie sie seit den 60er Jahren für jegliche Art Uhren und Nummernanzeigen verwendet wurden. Ich erinnere mich noch diese Art von Uhren häufig in meiner Kindheit gesehen zu haben. Heute sind sie weitestgehend durch Matrixanzeigen ersetzt. Das Wort "Watch" kommt aus dem Altenglischen wæccan und bedeutet "keep watch, be awake,". Die Uhr wacht über die Zeit. Sie zeichnet das Vergehen der Zeit auch dann auf, wenn wir nicht auf das Vergehen der Zeit achten. Meine Watch ist etwas eigensinnig indem sie die Zeit zwar aufzeichnet, aber sobald man sie mit einem Blick kontrolliert scheint sie ihrer Bestimmung nicht mehr nachzukommen und bleibt stehen. Diese Uhr spielt mit der Dominanz der Uhr über den Menschen und umgekehrt. Der Mensch erfand die Uhr, die ihn zu ihrem Knecht gemacht hat. Ich gebe dem Menschen ein kleines bisschen Souveränität gegenüber der Uhr zurück, aber dafür muss mit einer ungenauen Zeit leben.
+  </p>
+  <div class="image-container">
+    <img class="image-large" src="images/watch.jpg" alt="Watch von Maurits Boettger">
+    <span class="caption">Watch, Maurits Boettger</span>
+  </div>
+</article>
+
+{% include "endmenu.nunjucks" %}
+
+{% endblock %}

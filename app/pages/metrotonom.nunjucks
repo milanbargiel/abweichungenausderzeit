@@ -1,0 +1,24 @@
+<!-- metrotonom.nunjucks -->
+{% set title = 'Metrotonom | Abweichungen aus der Zeit' %}
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+<nav> 
+  <a class="header" href="/">ABWEICHUNGEN<br>AUS DER ZEIT</a>
+</nav>
+
+<article>
+  <h1>Metrotonom</h1>
+  <p>
+    Ist ein Metronom, an dessen Pendel ein weiteres Pendel angebracht ist und durch welches das erstere aus seinem regelmäßigen Gang gebracht wird. Ein Pendel in Kombination mit einer Hemmung und einem Antrieb (wie man es aus der klassischen Pendeluhr kennt) schafft einen gleichmäßigen Takt. Dieses Funktionsprinzip, wird bei Metrotonom durch ein weiteres Pendel ausgehebelt und verursacht minimale Abweichungen aus der Regelmäßigkeit.
+  </p>
+  <div class="image-container">
+    <img class="image-large" src="images/metrotonom.jpg" alt="Metrotonom von Maurits Boettger">
+    <span class="caption">Metrotonom, Maurits Boettger</span>
+  </div>
+</article>
+
+{% include "endmenu.nunjucks" %}
+
+{% endblock %}

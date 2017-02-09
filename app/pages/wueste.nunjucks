@@ -10,12 +10,14 @@
 
 <article>
   <h1>Wüste</h1>
+
   <div class="quote-container">
     <div class="quote">
       „Nur das Sonnenlicht hält die Dinge zusammen. der Mittag ist die kritische Stunde: die Wüste enthüllt sich nackt und grausam, ohne Bedeutung außer ihrer eigenen Existenz“
     </div>
-    <a class="caption" href="#">Edward Abbey, Desert Solitaire, Seite 35</a>
+    <a class="caption" href="#cite-note-1">Edward Abbey, Desert Solitaire, Seite 35</a>
   </div>
+
   <p>
     Was hat die Wüste mit Zeit zu tun? Was hat die Kunst mit der Wüste zu tun? Ist die Wüste der Größte Zeitvorrat? Ist die Wüste eine riesige Sanduhr?
   </p>
@@ -48,50 +50,73 @@
   <p>
     Marina Abramovic und Ulay verharrten in einer performance 17 Stunden in völliger Regungslosigkeit. Das Ziel war zu anderen Erlebnisformen der Zeit zu kommen, als derer die durch die Bewegung bestimmt sind. Dabei ließen sie sich stark durch Erlebnisse in der Wüste beeinflussen.
   </p>
+
   <div class="quote-container">
     <div class="quote">
       „Der Auslöser für diese Aktion war, wie gesgt die Wüste, dort wo es 50° Celsius hat, so heiß, dass wir uns nicht mehr bewegen konnten ... diese Situation reinigte unsere Körper und wir wurden geistig sehr aktiv ...“
     </div>
-    <a class="caption" href="#">Marina Abramovic in : Performance, eine andere Dimension, Berlin 1983, S.17</a>
+    <a class="caption" href="#cite-note-2">Marina Abramovic in : Performance, eine andere Dimension, Berlin 1983, S.17</a>
   </div>
+
   <div class="quote-container">
     <div class="quote">
       „Wichtig ist, daß wir uns nicht bewegen, es ist wie außerhalb der Zeit sein. Unser Ziel ist es Zeitlosigkeit zu erleben.“
     </div>
-    <a class="caption" href="#">Marina Abramovic in Ausstellungskatalog Innsbruck 1978, o.S</a>
+    <a class="caption" href="#cite-note-3">Marina Abramovic in Ausstellungskatalog Innsbruck 1978, o.S</a>
   </div>
+
   <p>
-    In einer solchen Starre gehen die Bezugspunkte in der linearen Zeit verloren, das Erleben des Moments tritt in den Vordergrund. Die Orientierungslosigkeit, wie sie leicht in der Wüste entsteht ( <a href="#">Link Sand</a> ) ist nicht nur räumlich, sondern scheint sich auf die Zeit zu übertragen. Die Gedanken gleiten unter Einfluss extremer Naturbedingungen ab, lassen sich nicht mehr greifen. Man kann anhand eines Schattens einen Zeitpunkt feststellen, aber was nützt er hier schon? Und im nächsten Moment ist er wieder vergessen.
+    In einer solchen Starre gehen die Bezugspunkte in der linearen Zeit verloren, das Erleben des Moments tritt in den Vordergrund. Die Orientierungslosigkeit, wie sie leicht in der Wüste entsteht ( <a href="sand.html">Link Sand</a> ) ist nicht nur räumlich, sondern scheint sich auf die Zeit zu übertragen. Die Gedanken gleiten unter Einfluss extremer Naturbedingungen ab, lassen sich nicht mehr greifen. Man kann anhand eines Schattens einen Zeitpunkt feststellen, aber was nützt er hier schon? Und im nächsten Moment ist er wieder vergessen.
   </p>
+
   <div class="quote-container">
     <div class="quote">
       “Perception is the master of space in the measure to which action is the master of time”
     </div>
-    <a class="caption" href="#">Henri Bergson in Gilles Deleuze's Time Machine, D.N. Rodowick, Seite 79</a>
+    <a class="caption" href="#cite-note-4">Henri Bergson in Gilles Deleuze's Time Machine, D.N. Rodowick, Seite 79</a>
   </div>
+
   <p>
     Die Sterne an deren Beobachtung schon seit langen das Vergehen der Zeit festgemacht wurde und nach denen man den Kalender erstellt hat, sind in unserer heutigen Zeit der Lichtverschmutzung besonders in Wüsten gut sichtbar. Nancy Holt, die selbst einige Zeit in der Wüste lebte, legte in ihrer Arbeit "Sun Tunnels" vier Betonröhren in die Great Salt Lake Desert in Utah. Die Röhren liegen so, dass zwei von ihnen die Winter- und zwei die Sommersonnenwende markieren. In die Röhre sind an der Oberseite Löcher eingelassen mit Hilfe derer das Sonnenlicht die Sternbilder Drache, Perseus, Columba und Steinbock auf die Unterseite projiziert. Die Sternbilder die tags zwar vorhanden, aber durch das Sonnenlicht unsichtbar sind werden hier genau durch dieses wieder sichtbar.
   </p>
+
   <div class="quote-container">
     <div class="quote">
       „Damit verbindet, ja verschmilzt Holt zwei Zeitrechnungssysteme, die das Jahr beschreiben: Das Zeitrechnungssystem das sich auf die Sonne bezieht und dasjenige, das den Sternenhimmel errechenbar ist. Dadurch vereint sie auch gleichzeitig die kleineren Zeitrhythmen von Tag und Nacht, indem sie während des Tages (Sonne) die Nacht (Sternenhimmel) in die Tunnels projiziert.”
     </div>
     <a class="caption" href="#">Vgl. Kunst und Zeit, Paflik-Huber, Seite 81</a>
   </div>
+
   <div class="image-container">
     <img class="image-medium" src="images/sun-tunnels-nancy-holt.jpg" alt="Die Installation Sun Tunnels von Nancy Holt">
-    <a class="caption" href="#">Sun Tunnels, Nancy Holt</a>
+    <a class="caption" href="#cite-note-5">Sun Tunnels, Nancy Holt</a>
   </div>
+
   <p>
     Gerrit van Bakels Tarim Machine bewegt sich mit einer Geschwindigkeit von 18mm pro Tag durch das 1100km lange Tarimbecken im Westen der Volksrepublik China. Der Roboter schafft durch seine langame Bewegung Bezug zur Zeit der Wüstenlandschaft. Für den Menschlichen Betrachter scheint er sich nicht zu bewegen und doch befindet er sich am nächsten Tag ein Stückchen weiter. Die Veränderung der Position ist aber schwer zu erkennen, da es wenige Anhaltspunkte in der kargen Gegend gibt. Es ist schwer zu sagen, ob sich der Sand oder die Maschine selbst bewegt hat.
   </p>
+
   <div class="image-container">
     <img class="image-xs" src="images/tarim-machine-gerrit-van-bakel.jpg" alt="Tarim Machine von Gerrit van Bakel">
-    <a class="caption" href="#">Sun Tunnels, Nancy Holt</a>
+    <a class="caption" href="#cite-note-6">Tarim Machine, Gerrit van Bakel</a>
   </div>
+
   <div class="video-container">
     <iframe src="https://www.youtube.com/embed/g9BqqVRJFXE" frameborder="0" allowfullscreen></iframe>
   </div>
+
+  <div class="references">
+    <h2>Referenzen:</h2>
+    <ol>
+      <li id="cite-note-1">(Edward Abbey , Desert Solitaire, Seite 35)</li>
+      <li id="cite-note-2">(Marina Abramovic in : Performance, eine andere Dimension, Berlin 1983, S.17)</li>
+      <li id="cite-note-3">(Marina Abramovic in Ausstellungskatalog Innsbruck 1978, o.S)</li>
+      <li id="cite-note-4">(Henri Bergson in Gilles Deleuze's Time Machine, D.N. Rodowick, Seite 79)</li>
+      <li id="cite-note-5">(<a target="_blank" href="http://img.zeit.de/kultur/kunst/2011-03/fs-nancy-holt-land-art-sightlines-bilder/03-NHolt-SunTunnels_009.jpg/imagegroup/original__880x587__desktop">http://img.zeit.de/kultur/kunst/2011-03/fs-nancy-holt-land-art-sightlines-bilder/03-NHolt-SunTunnels_009.jpg/imagegroup/original__880x587__desktop</a> 28.01.2017)</li>
+      <li id="cite-note-6">(<a target="_blank" href="http://www.gerritvanbakel.nl/htmlpics/edutarim.jpg">http://www.gerritvanbakel.nl/htmlpics/edutarim.jpg</a> 08.01.2017)</li>
+    </ol>
+  </div>
+
 </article>
 
 {% include "endmenu.nunjucks" %}

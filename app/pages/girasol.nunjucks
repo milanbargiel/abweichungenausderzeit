@@ -1,0 +1,25 @@
+<!-- girasol.nunjucks -->
+{% set title = 'Girasol | Abweichungen aus der Zeit' %}
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+<nav> 
+  <a class="header" href="/">ABWEICHUNGEN<br>AUS DER ZEIT</a>
+</nav>
+
+<article>
+  <h1>Girasol</h1>
+  <p>
+    ist eine Sonnenuhr die sich mit dem Verlauf der Sonne mitbewegt und zu keiner Zeit die Zeit verrät. Natürlich kennt sie diese, sowie die eigene Position auf der Erde damit der Sonnenstand errechnet werden kann. Jegliches Objekt, das Schatten wirft kann als Uhr verwendet werden. Es gibt wohl weniger Dinge die keine Sonnenuhr sind als die die es sind. Das Heliostat ist eine der wenigen Ausnahmen. Girasol ist etwas (eine Uhr) das dafür da ist, das wofür es da ist (die Zeit zu messen) nicht zu tun.
+    Diese Uhr stellt sich der Veränderung der Position zwischen Erde und Sonne entgegen, macht aufmerksam auf die Relativität unserer Lage und verweigert das Vergehen der Zeit. Man könnte eine unsichtbare Verbindung zwischen der Scala der Uhr und der Sonne denken, dann würden die beiden kleinen Servomotoren die Erde bewegen. "Girasol" ist spanisch und bedeutet "Sonnenblume". das Wort setzt sich zusammen aus dem verb Drehen (Girar) und Sonne (Sol), wäre direkt übersetzt also zu verstehen als "dreh zur Sonne".
+  </p>
+  <div class="image-container">
+    <img class="image-large" src="images/girasol.jpg" alt="Girasol Sonnenuhr von Maurits Boettger">
+    <span class="caption">Girasol Sonnenuhr, Maurits Boettger</span>
+  </div>
+</article>
+
+{% include "endmenu.nunjucks" %}
+
+{% endblock %}

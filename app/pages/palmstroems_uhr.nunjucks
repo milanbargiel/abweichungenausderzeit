@@ -1,0 +1,41 @@
+<!-- palmstroems_uhr.nunjucks -->
+{% set title = 'Palmströms Uhr | Abweichungen aus der Zeit' %}
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+<nav> 
+  <a class="header" href="/">ABWEICHUNGEN<br>AUS DER ZEIT</a>
+</nav>
+
+<article>
+  <h1>Palmströms Uhr</h1>
+  <p class="quote">
+    Palmströms Uhr ist andrer Art,</br>
+    reagiert mimosisch zart.
+  </p>
+  <p class="quote">
+    Wer sie bittet, wird empfangen.</br>
+    Oft schon ist sie so gegangen,
+  </p>
+  <p class="quote">
+    wie man herzlich sie gebeten,</br>
+    ist zurück - und vorgetreten,
+  </p>
+  <p class="quote">
+    eine Stunde, zwei, drei Stunden,</br>
+    je nachdem sie mitempfunden.
+  </p>
+  <p class="quote">
+    Selbst als Uhr, mit ihren Zeiten,</br>
+    will sie nicht Prinzipien reiten:
+  </p>
+  <p class="quote">
+    Zwar ein Werk, wie allerwärts,</br>
+    doch zugleich ein Werk - mit Herz.
+  </p>
+</article>
+
+{% include "endmenu.nunjucks" %}
+
+{% endblock %}

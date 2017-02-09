@@ -1,0 +1,25 @@
+<!-- kontraktion_und_dilatation_in_herz_und_raum.nunjucks -->
+{% set title = 'Kontraktion und Dilatation in Herz und Raum | Abweichungen aus der Zeit' %}
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+<nav> 
+  <a class="header" href="/">ABWEICHUNGEN<br>AUS DER ZEIT</a>
+</nav>
+
+<article>
+  <h1>Kontraktion und Dilatation</br> in Herz und Raum</h1>
+  <p>
+    Der Herzschlag und die Atmung sind die einzige zeitliche Referenz die man in kürzeren Zeiträumen hat wenn man keine äußeren Zeitgeber wahrnimmt. Der Herzschlag funktioniert ähnlich einer Uhr die kontrollierbar ist aber nicht ausschaltbar. Mit der Atmung und körperlichen Aktivitäten kann man den Herzschlag beeinflussen: beschleunigen oder verlangsamen. In diesen Momenten wird Zeit gedehnt oder gestaucht. Die Geschwindigkeit des Herzschlags ist (fast) irrelevant für die Geschwindigkeit unseres subjektiven Zeitgefühls (Link). Entscheidend ist die Beschleunigung oder die Verlangsamung. Vielleicht passiert hier eine kurze Asynchronität zwischen der Wahrnehmung des selbst und der der Umgebung
+    In dem Video Kontraktion und Dilatation in Herz und Raum wird Die Dehnung und Stauchung der Zeit mit Hilfe des Vertigoeffekt oder Dollyzoom auf den Raum übertragen.
+  </p>
+  <div class="image-container">
+    <img class="image-large" src="images/kontraktion.jpg" alt="Kontraktion und Dilatation in Herz und Raum">
+    <span class="caption">Kontraktion und Dilatation in Herz und Raum, Maurits Boettger</span>
+  </div>
+</article>
+
+{% include "endmenu.nunjucks" %}
+
+{% endblock %}
