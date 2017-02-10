@@ -33,11 +33,17 @@
 
   &__readmore {
     color: $grey;
-    float: right;
-    font-size: $font-size-xs;
+    float: left;
+    font-size: $font-size-sm;
     line-height: 1;
-    margin-top: .9rem;
+    margin-top: $dist-sm;
     text-decoration: none;
+
+    @include media-breakpoint-up(sm) {
+      float: right;
+      font-size: $font-size-xs;
+      margin-top: 1rem;
+    }
   }
 }
 

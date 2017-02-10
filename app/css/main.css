@@ -1204,6 +1204,66 @@ html {
   .offset-xl-11 {
     margin-left: 91.66667%; } }
 
+.hidden-xs-up {
+  display: none !important; }
+
+@media (max-width: 575px) {
+  .hidden-xs-down {
+    display: none !important; } }
+
+@media (min-width: 576px) {
+  .hidden-sm-up {
+    display: none !important; } }
+
+@media (max-width: 767px) {
+  .hidden-sm-down {
+    display: none !important; } }
+
+@media (min-width: 768px) {
+  .hidden-md-up {
+    display: none !important; } }
+
+@media (max-width: 991px) {
+  .hidden-md-down {
+    display: none !important; } }
+
+@media (min-width: 992px) {
+  .hidden-lg-up {
+    display: none !important; } }
+
+@media (max-width: 1199px) {
+  .hidden-lg-down {
+    display: none !important; } }
+
+@media (min-width: 1200px) {
+  .hidden-xl-up {
+    display: none !important; } }
+
+.hidden-xl-down {
+  display: none !important; }
+
+.visible-print-block {
+  display: none !important; }
+  @media print {
+    .visible-print-block {
+      display: block !important; } }
+
+.visible-print-inline {
+  display: none !important; }
+  @media print {
+    .visible-print-inline {
+      display: inline !important; } }
+
+.visible-print-inline-block {
+  display: none !important; }
+  @media print {
+    .visible-print-inline-block {
+      display: inline-block !important; } }
+
+@media print {
+  .hidden-print {
+    display: none !important; } }
+
 html {
   font-size: 62.5%; }
 
@@ -1282,11 +1342,16 @@ body {
     text-decoration: none; }
   .teaser__readmore {
     color: #777;
-    float: right;
-    font-size: 1.1rem;
+    float: left;
+    font-size: 1.4rem;
     line-height: 1;
-    margin-top: .9rem;
+    margin-top: 2.2rem;
     text-decoration: none; }
+    @media (min-width: 576px) {
+      .teaser__readmore {
+        float: right;
+        font-size: 1.1rem;
+        margin-top: 1rem; } }
 
 .teaser-tile-container {
   display: -webkit-box;
@@ -1345,7 +1410,8 @@ p {
       width: 61%; } }
 
 a {
-  color: #777; }
+  color: #777;
+  word-wrap: break-word; }
   a:hover {
     color: crimson;
     text-decoration: underline; }
@@ -1432,3 +1498,8 @@ sup a {
 .divider {
   border-bottom: 1px solid #e4e4e4;
   margin: 6.6rem 0; }
+
+.go-home-btn {
+  display: block;
+  margin: 6.6rem 0;
+  text-decoration: none; }

@@ -17,7 +17,7 @@ die Zeit ist eine Nervenbahn: scheinbar durchgehend, aus der Ferne betrachtet, a
 {%- endcall %}
 
 {% call element.textualteaser('Uhrzeit', 'uhrzeit.html') -%}
-Die heutige Definition einer Sekunde ist..
+Das Lateinische Wort Hora (Stunde) kommt von der Gebetsstunde. Diese war eine fest eingeteilte Zeit des Tages, später wurde Das Wort Hora nicht mehr nur für die Gebetsstunde, sondern auch für die anderen eingeteilten Zeitabschnitte des Tages verwendet. Die Länge eines Tages war in allen Kulturkreisen durch die Dauer festgelegt in der sich die Erde einmal um ihre Achse dreht..
 {%- endcall %}
 
 {% call element.textualteaser('Zeit im Raum', 'zeit_im_raum.html') -%}

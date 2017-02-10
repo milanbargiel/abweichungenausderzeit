@@ -29,6 +29,7 @@ p {
 
 a {
   color: $grey;
+  word-wrap: break-word;
 
   &:hover {
     color: $hover-color;
@@ -140,4 +141,10 @@ sup {
 .divider {
   border-bottom: 1px solid $grey-light;
   margin: $dist-lg 0;
+}
+
+.go-home-btn {
+  display: block;
+  margin: $dist-lg 0;
+  text-decoration: none;
 }
