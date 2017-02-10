@@ -10,25 +10,25 @@ If these two tools are installed open the console of your computer and enter:
 ```sh
 npm install --global gulp-cli
 ```
-We are using the npm package manager to install the 'gulp' command.
+We are using the npm package manager to install the `gulp` command.
 [Gulp] (http://gulpjs.com/) is a tool for automatating tasks in the development workflow. In this project it is used to run the project on a local webserver as well as preparing code and assets to be uploaded on a webserver.
 
 ## Get the project running
-When these tools are installed it is time to download the repository. Use Sublime text editor and open the entire folder 'zeit-webpage'.
+When these tools are installed it is time to download the repository. Use Sublime text editor and open the entire folder `/zeit-webpage`.
 Now you can see the contents of the project.
 
-The file 'package.json' specifies which modules (chunks of code from other developers) the project relies on.
+The file `package.json` specifies which modules (chunks of code from other developers) the project relies on.
 In order to install all required modules do the following:
 - open the console of your computer
-- use the command `cd <folder>/<folder>/zeit-webpage` to get into the folder "zeit-webpage"
+- use the command `cd <folder>/<folder>/zeit-webpage` to get into the folder `/zeit-webpage`
 - run the command `npm install`
 
 Now all required modules are installed.
 
 ## Run project on a local server
-Run `gulp` command from within the "zeit-webpage" folder.
+Run `gulp` command from within the `/zeit-webpage` folder.
 
-The command will run all tasks specified in 'gulpfile.js'. These include visualizing the code in a browser window and refreshing the page whenever the code changes. When you modify content inside the source files keep the `gulp` command executed to see changes immediately reflected by your browser.
+The command will run tasks specified in `gulpfile.js`. These include visualizing the code in a browser window and refreshing the page whenever the code changes. When you modify content inside the source files keep the `gulp` command executed to see changes immediately reflected by your browser.
 
 ## Upload website to a webserver
 Before uploading the website to a webserver all assets (html, css, javascript, images) need to be optimized to make the website faster.
@@ -41,7 +41,7 @@ Just copy the content of `/zeit-webpage/dist` onto the webserver.
 # Modify content
 ## Folder structure
 All files that are relevant for the content of the webpage are found within `/zeit-webpage/app` folder.
-To modify the content of the webpage it is necessary to modify templates with ".nunjucks" extension found inside of `/pages` and `/templates` folder. Images are placed inside of the `/image` folder. Never modify ".html" files directly. These files are automatically constructed from the template files.
+To modify the content of the webpage it is necessary to modify templates with `.nunjucks` extension found inside of `/pages` and `/templates` folder. Images are placed inside of the `/image` folder. Never modify `.html` files directly. These files are automatically constructed from the template files.
 
 ```
 zeit-webpage/app/
@@ -49,7 +49,7 @@ zeit-webpage/app/
 ├── pages/
 └── templates/
 ```
-Inside of the `/pages` folder all pages are to be found. Common contents are placed within `/templates` folder to be imported from a page template. Therefore common page contents (such as page layout or menu) can be defined once and reused on different pages.
+Inside of the `/pages` folder all pages are to be found. Content that is shared between different pages is placed within `/templates` folder to be imported from a page. Therefore common page contents (such as the page layout or a menu) can be defined once and reused on different pages.
 
 Remember to run the `gulp` command when modifying content.
 
@@ -58,7 +58,8 @@ To modify the teaser text of an article go to the file `zeit-webpage/app/templat
 
 ```
 {% call element.textualteaser('Sand', 'sand.html') -%}
-  Sand ist ein Material, das in direktem Zusammenhang mit der Zeit steht. Man könnte ihn fast als materialisierte Zeit bezeichnen. Auf     natürliche Weise entsteht Sand nur in sehr langer Zeit..
+  Sand ist ein Material, das in direktem Zusammenhang mit der Zeit steht. 
+  Man könnte ihn fast als materialisierte Zeit bezeichnen. Auf natürliche Weise entsteht Sand nur in sehr langer Zeit..
 {%- endcall %}
 ```
 The function takes the headline and the filename of the article as an input as well as the text to be displayed as a teaser.
@@ -70,14 +71,14 @@ The teaser for "Einleitung" is to be found in the file `/zeit-webpage/pages/inde
   <span class="introduction__dropcap">M</span>
   <div>
     einer Arbeit zur Zeit möchte ich ein kleines Gedankenspiel voranstelllen:
-    Als Kind hatte ich mir einmal ausgemalt, dass wenn ich rückwärts denken könnte es mir möglich wäre die Zeit zurückspulen zu können.     Aus Hallo wird ollaH usw. Ich nahm meine Stimme auf, spielte sie rückwärts ab und ahmte das gehörte nach..
+    Als Kind hatte ich mir einmal ausgemalt, dass wenn ich rückwärts denken könnte..
   </div>
   <a class="teaser__readmore" href="einleitung.html">WEITERLESEN</a>
 </div>
 ```
 
 ## Modify article text
-All articles are found in `zeit-webpage/app/pages` folder. The content of an article is surrounded by the `<article> </article>` tags.
+All articles are found in the `zeit-webpage/app/pages` folder. The content of an article is surrounded by the `<article> </article>` tags.
 
 An article has the following style elements:
 
@@ -129,7 +130,7 @@ Inside of the anchor tags link text can be specified: `<a target="_blank" href="
   </div>
 ```
 In the reference section at the end of the page all references are listed. Here it is specified where the user jumps to
-when clicking on an In-text citation. The field `id="cite-note-1"` specifies the pairing with a citation. The content of of a reference can be text only `<li id="cite-note-2> TEXT </li>` or with a link included `<li id="cite-note-2> TEXT <a target="_blank" href="http.."> LINK TEXT HERE </a></li>`
+when clicking on an In-text citation. The field `id="cite-note-1"` specifies the pairing with a citation. The content of a reference can be text only `<li id="cite-note-2> TEXT </li>` or with a link included `<li id="cite-note-2> TEXT <a target="_blank" href="http.."> LINK TEXT HERE </a></li>`
 
 
 #### Quote
@@ -167,7 +168,7 @@ To change the video just enter another url at the `src=" "` attribute.
 There is just one size of videos.
 
 #### Caption
-A caption can belong to a quote, a image or a video.
+A caption can belong to a quote, an image or a video.
 
 A caption can either be a link to a reference:
 ```
