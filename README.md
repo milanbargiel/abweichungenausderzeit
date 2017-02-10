@@ -5,19 +5,17 @@ In the following I am going to explain how to modify content on the webpage. In 
 - [Sublime Text 3] (https://www.sublimetext.com/3) (text editor for code)
 - [Node.js and npm] (https://docs.npmjs.com/getting-started/installing-node) (npm is a package manager that allows you to share and reuse chunks of code written by other developers)
 
-If these two tools are installed a last one has to be installed.
-In order to do so just open up the console of your computer and enter:
+If these two tools are installed open the console of your computer and enter:
 
 ```sh
 npm install --global gulp-cli
 ```
-We used the freshly installed npm package manager to install the 'gulp' command.
-Gulp is a tool for automatating tasks in your development workflow. In this project it is used to run the project on a local webserver,
-as well as preparing code and assets to be uploaded on a webserver.
+We are using the npm package manager to install the 'gulp' command.
+[Gulp] (http://gulpjs.com/) is a tool for automatating tasks in the development workflow. In this project it is used to run the project on a local webserver as well as preparing code and assets to be uploaded on a webserver.
 
 ## Get the project running
 When these tools are installed it is time to download the repository. Use Sublime text editor and open the entire folder 'zeit-webpage'.
-No you can see the contents of the project.
+Now you can see the contents of the project.
 
 The file 'package.json' specifies which modules (chunks of code from other developers) the project relies on.
 In order to install all required modules do the following:
@@ -27,43 +25,45 @@ In order to install all required modules do the following:
 
 Now all required modules are installed.
 
-### Run project on a local server
+## Run project on a local server
 Run `gulp` command from within the "zeit-webpage" folder.
 
-The command will run all tasks specified in 'gulpfile.js'. These include visualizing the code in a browser window and refreshing the page
-whenever the code changes.
+The command will run all tasks specified in 'gulpfile.js'. These include visualizing the code in a browser window and refreshing the page whenever the code changes. When you modify content inside the source files keep the `gulp` command executed to see changes immediately reflected by your browser.
 
-### Prepare files for being distributed on a web server
-Run the command `gulp build` inside of the console from within the "zeit-webpage" folder. This will optimize all assets (images, css, javascript) and create
-an optimized version ready for distribution inside the folder 'zeit-webpage/dist'.
+## Upload website to a webserver
+Before uploading the website to a webserver all assets (html, css, javascript, images) need to be optimized to make the website faster.
 
-### Get website online
-Just copy content of 'zeit-webpage/dist' onto the webserver.
+For optimization run the command `gulp build` inside of the console from within the `/zeit-webpage` folder. This will optimize all assets and create an optimized version ready for distribution inside the `/zeit-webpage/dist` folder.
+
+#### Get website online
+Just copy the content of `/zeit-webpage/dist` onto the webserver.
 
 # Modify content
-### Folder structure
-All files that are relevant for the content of the webpage are found within "zeit-webpage/app" folder.
-To modify content of the webpage it is necessary to modify templates with ".nunjucks" extension found inside of "/pages" and "/templates" folder. Images are placed inside of the "image" folder. Never modify ".html" files directly. These files are automatically constructed from the template files.
+## Folder structure
+All files that are relevant for the content of the webpage are found within `/zeit-webpage/app` folder.
+To modify the content of the webpage it is necessary to modify templates with ".nunjucks" extension found inside of `/pages` and `/templates` folder. Images are placed inside of the `/image` folder. Never modify ".html" files directly. These files are automatically constructed from the template files.
 
 ```
-zeit-webpage/
+zeit-webpage/app/
 ├── images/
 ├── pages/
 └── templates/
 ```
-Inside of the "pages" folder all pages are to be found. Common contents are placed within "templates" folder to be imported from a page template. Therefore common page contents (such as page layout or menu) can be defined once and reused on different pages.
+Inside of the `/pages` folder all pages are to be found. Common contents are placed within `/templates` folder to be imported from a page template. Therefore common page contents (such as page layout or menu) can be defined once and reused on different pages.
 
-### Modify teaser texts
-To modify the teaser text of an article go to the file `zeit-webpage/templates/teaseritems.nunjucks`.
+Remember to run the `gulp` command when modifying content.
+
+## Modify teaser texts
+To modify the teaser text of an article go to the file `zeit-webpage/app/templates/teaseritems.nunjucks`.
 
 ```
 {% call element.textualteaser('Sand', 'sand.html') -%}
   Sand ist ein Material, das in direktem Zusammenhang mit der Zeit steht. Man könnte ihn fast als materialisierte Zeit bezeichnen. Auf     natürliche Weise entsteht Sand nur in sehr langer Zeit..
 {%- endcall %}
 ```
-The function takes as an input the headline and the filename of the article as well as the text to be displayed as a teaser.
+The function takes the headline and the filename of the article as an input as well as the text to be displayed as a teaser.
 
-The teaser for "Einleitung" is to be found in the file `zeit-webpage/pages/index.nunjucks`.
+The teaser for "Einleitung" is to be found in the file `/zeit-webpage/pages/index.nunjucks`.
 
 ```
 <div class="introduction teaser">
@@ -76,8 +76,8 @@ The teaser for "Einleitung" is to be found in the file `zeit-webpage/pages/index
 </div>
 ```
 
-### Modify article text
-All articles are found in `zeit-webpage/pages` folder. The content of an article is surrounded by the `<article> </article>` tags.
+## Modify article text
+All articles are found in `zeit-webpage/app/pages` folder. The content of an article is surrounded by the `<article> </article>` tags.
 
 An article has the following style elements:
 
@@ -101,13 +101,13 @@ This heading is used for in-text headlines.
 ```
 <p>
   Meiner Meinung nach ist diese Uhr viel eher eine künstlerische als gestalterische Arbeit, 
-  da sie sich jeglichem effizienten Denken widersetzt. 
+  da sie sich jeglichem effizienten Denken widersetzt
   <a target="_blank" href="http://www.uhrsachen.ch/tickdifferent/?p=56">(Link Hersteller)</a>
 </p>
 ```
-The attribute `target="_blank"` specifies that the referenced webpage is going to be opened from within a new tab.
+The attribute `target="_blank"` specifies that the website is going to be opened within a new tab of the browser.
 The attribute `href="..."` specifies the URL of the webpage to be referenced.
-Inside of the tags link text can be specified: `<a target="_blank" href="..."> LINK TEXT HERE </a>`
+Inside of the anchor tags link text can be specified: `<a target="_blank" href="..."> LINK TEXT HERE </a>`
 
 #### In-text citation
 ```
@@ -116,21 +116,15 @@ Inside of the tags link text can be specified: `<a target="_blank" href="..."> L
   dann wiederum von einer Quarzuhr getaktet werden. <sup><a href="#cite-note-1">[1]</a></sup>
 </p>
 ```
-`href="#cite-note-1"` is an intern link to an element specified with the id 'cite-note-1'
+`href="#cite-note-1"` is an intern link to an element specified with the id 'cite-note-1' in the reference section.
 
 #### References
 ```
 <div class="references">
     <h2>Referenzen:</h2>
     <ol>
-      <li id="cite-note-1">
-        (vgl. 
-        <a target="_blank" href="https://de.wikipedia.org/wiki/Silicium">https://de.wikipedia.org/wiki/Silicium</a> 
-        27.12.2016, 11:45)
-      </li>
-      <li id="cite-note-2">
-        Sanduhr Buch Seite 50, Schleswig Holstein Verlag
-      </li>
+      <li id="cite-note-1">Medienbildung und Zeit Seite, 40</li>
+      <li id="cite-note-2">Sanduhr Buch Seite 50, Schleswig Holstein Verlag</li>
     </ol>
   </div>
 ```
