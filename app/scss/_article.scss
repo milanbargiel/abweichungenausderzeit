@@ -1,6 +1,7 @@
 h1 {
   font-size: $font-size-h1;
   font-weight: 800;
+  hyphens: auto;
   letter-spacing: -1px;
   line-height: 1;
   margin-bottom: $dist-md;
@@ -12,6 +13,7 @@ h1 {
 
 h2 {
   font-size: $font-size-h2;
+  hyphens: auto;
   margin: $dist-lg 0 $dist-xs;
 
   @include media-breakpoint-up(md) {
