@@ -1511,3 +1511,17 @@ sup a {
   display: block;
   margin: 6.6rem 0;
   text-decoration: none; }
+
+.back-img {
+  z-index: -100;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  opacity: 0; }
+
+.teaser__header:hover + .back-img {
+  opacity: 0.25;
+  -webkit-transition: 1.55s;
+  -o-transition: 1.55s;
+  transition: 1.55s; }

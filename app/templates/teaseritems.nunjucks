@@ -4,11 +4,11 @@
 Um Zeit Messen zu können braucht man zuallererst eine Definition von Zeit. In unserem Alltag definiert sich die Zeit, dass die Zeit, als etwas unumkerhrbares und gleichförmig voranschreitendes. Dann wird in der Natur nach Vorgängen gesucht, die diesem Ideal möglichst nahe kommen, messbar und zählbar sind..
 {%- endcall %}
 
-{% call element.textualteaser('Abweichungen', 'abweichungen.html') -%}
+{% call element.textualteaser('Abweichungen', 'abweichungen.html', 'images/backgrounds/dali.jpg') -%}
 In diesem Artikel möchte ich einige weitere Künstlerische und andere weniger künstlerische Ansätze vorstellen, die für mich im Zusammenhang mit dieser Arbeit von Interesse sind, Entweder weil sie Abweichungen aus einer gleichförmigen Zeit darstellen, weil sie mich inspiriert haben, weil sie ähnliche Interessen verfolgen, oder einfach weil sie einen ungewöhnlichen Umgang mit Zeit haben, der es Wert ist einmal durchgedacht zu werden..
 {%- endcall %}
 
-{% call element.textualteaser('Sand', 'sand.html') -%}
+{% call element.textualteaser('Sand', 'sand.html', 'images/backgrounds/berg.jpeg') -%}
 Sand ist ein Material, das in direktem Zusammenhang mit der Zeit steht. Man könnte ihn fast als materialisierte Zeit bezeichnen. Auf natürliche Weise entsteht Sand nur in sehr langer Zeit..
 {%- endcall %}
 

@@ -1,7 +1,8 @@
-{% macro textualteaser(title, link) %}
+{% macro textualteaser(title, link, img) %}
 <div class="grid-item col-sm-6 col-md-4">
   <div class="teaser">
     <a class="teaser__header" href="{{ link }}">{{ title | safe }}</a>
+    <img class="back-img" src="{{ img }}" alt="">
     <div>
       {{ caller() }}
     </div>

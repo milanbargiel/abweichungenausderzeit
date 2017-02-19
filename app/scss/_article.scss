@@ -150,3 +150,17 @@ sup {
   margin: $dist-lg 0;
   text-decoration: none;
 }
+
+.back-img {
+  z-index: -100;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+}
+
+.teaser__header:hover + .back-img {
+  opacity: 0.25;
+  transition: 1.55s;
+}
