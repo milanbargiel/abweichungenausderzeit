@@ -1,15 +1,15 @@
 {% import "macros.nunjucks" as element %}
 
 {% call element.textualteaser('Messen und Wahrnehmen</br>von Zeit', 'messen_und_wahrnehmen_von_zeit.html') -%}
-Um Zeit Messen zu können braucht man zuallererst eine Definition von Zeit. In unserem Alltag definiert sich die Zeit, dass die Zeit, als etwas unumkerhrbares und gleichförmig voranschreitendes. Dann wird in der Natur nach Vorgängen gesucht, die diesem Ideal möglichst nahe kommen, messbar und zählbar sind..
+Um Zeit messen zu können braucht man zuallererst eine Definition von Zeit. In unserem Alltag definieren wir Zeit, als etwas Unumkerhrbares und gleichförmig Voranschreitendes. Dann wird in der Natur nach Vorgängen gesucht, die diesem Ideal möglichst nahe kommen, messbar und zählbar sind..
 {%- endcall %}
 
 {% call element.textualteaser('Abweichungen', 'abweichungen.html') -%}
-In diesem Artikel möchte ich einige weitere Künstlerische und andere weniger künstlerische Ansätze vorstellen, die für mich im Zusammenhang mit dieser Arbeit von Interesse sind, Entweder weil sie Abweichungen aus einer gleichförmigen Zeit darstellen, weil sie mich inspiriert haben, weil sie ähnliche Interessen verfolgen, oder einfach weil sie einen ungewöhnlichen Umgang mit Zeit haben, der es Wert ist einmal durchgedacht zu werden..
+In diesem Artikel werde ich einige weitere künstlerische- und andere weniger künstlerische Ansätze vorstellen, die im Zusammenhang mit meiner Arbeit interessant waren..
 {%- endcall %}
 
 {% call element.textualteaser('Sand', 'sand.html') -%}
-Sand ist ein Material, das in direktem Zusammenhang mit der Zeit steht. Man könnte ihn fast als materialisierte Zeit bezeichnen. Auf natürliche Weise entsteht Sand nur in sehr langer Zeit..
+Sand ist ein Material, das in direktem Zusammenhang mit der Zeit steht. Man könnte ihn fast als materialisierte Zeit bezeichnen. Auf natürliche Weise entsteht Sand nur über sehr große Zeiträume..
 {%- endcall %}
 
 {% call element.textualteaser('Portionierte Zeit,</br> fluide Zeit', 'portionierte_zeit_fluide_zeit.html') -%}

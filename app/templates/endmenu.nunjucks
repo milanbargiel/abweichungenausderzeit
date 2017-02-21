@@ -5,13 +5,13 @@
 <a class="go-home-btn hidden-sm-up" href="index.html">ZUR STARTSEITE</a>
 
 <div class="grid row hidden-xs-down">
-  <!-- Masonry columnWidth sizer -->
-  <div class="grid-sizer col-sm-6 col-md-4"></div>
+<!-- Masonry columnWidth sizer -->
+<div class="grid-sizer col-sm-6 col-md-4"></div>
 
-  {% call element.textualteaser('Einleitung', 'einleitung.html') -%}
-  Meiner Arbeit zur Zeit möchte ich ein kleines Gedankenspiel voranstelllen: Als Kind hatte ich mir einmal ausgemalt, dass wenn ich rückwärts denken könnte es mir möglich wäre die Zeit zurückspulen zu können. Aus Hallo wird ollaH usw. Ich nahm meine Stimme auf, spielte sie rückwärts ab und ahmte das gehörte nach..
-  {%- endcall %}
+{% call element.textualteaser('Einleitung', 'einleitung.html') -%}
+Meiner Arbeit zur Zeit möchte ich ein kleines Gedankenspiel voranstelllen: Als Kind hatte ich mir einmal ausgemalt, dass wenn ich rückwärts denken könnte, es mir möglich wäre die Zeit zurückspulen zu können. Aus Hallo wird ollaH usw. Ich nahm meine Stimme auf, spielte sie rückwärts ab und ahmte das gehörte nach...
+{%- endcall %}
 
-  {% include "teaseritems.nunjucks" %}
+{% include "teaseritems.nunjucks" %}
 
 </div>
