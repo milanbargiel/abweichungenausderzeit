@@ -1430,6 +1430,9 @@ sup a {
   sup a:hover {
     text-decoration: none; }
 
+.italic {
+  font-style: italic; }
+
 .quote-container {
   margin: 4.4rem 0; }
   .quote-container::after {

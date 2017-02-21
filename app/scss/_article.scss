@@ -50,6 +50,10 @@ sup {
   }
 }
 
+.italic {
+  font-style: italic;
+}
+
 .quote-container {
   @include clearfix;
   margin: $dist-md 0;
