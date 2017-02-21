@@ -185,4 +185,11 @@ Or not clickable at all:
 <span class="caption">Prof. Dr. Gernot Münster</span>
 ```
 
+# Git add commit and push to github.com
+```
+git add -A
+git commit -m "message"
+git push -u origin master
+```
+
 
