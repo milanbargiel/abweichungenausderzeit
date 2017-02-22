@@ -10,24 +10,25 @@
 
 <article>
   <h1>Die Korfsche Uhr</h1>
-  <p class="quote">
+  <p>
     Korf erfindet eine Uhr,</br>
     die mit zwei Paar Zeigern kreist</br>
     und damit nach vorn nicht nur,</br>
     sondern auch nach rückwärts weist.
   </p>
-  <p class="quote">
+  <p>
     Zeigt sie zwei, somit auch zehn;</br>
     zeigt sie drei, somit auch neun;</br>
     und man braucht nur hinzusehn,</br>
     um die Zeit nicht mehr zu scheun.
   </p>
-  <p class="quote">
+  <p>
     Denn auf dieser Uhr von Korfen,</br>
     mit dem janushaften Lauf,</br>
     (dazu ward sie so entworfen):</br>
     hebt die Zeit sich selber auf.
   </p>
+  <span class="caption">Christian Morgenstern</span>
 </article>
 
 {% include "endmenu.nunjucks" %}

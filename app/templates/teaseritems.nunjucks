@@ -13,11 +13,11 @@ Sand ist ein Material, das in direktem Zusammenhang mit der Zeit steht. Man kön
 {%- endcall %}
 
 {% call element.textualteaser('Portionierte Zeit,</br> fluide Zeit', 'portionierte_zeit_fluide_zeit.html') -%}
-die Zeit ist eine Nervenbahn: scheinbar durchgehend, aus der Ferne betrachtet, aber unterbrochen, wenn man genau hinsieht, mit mikroskopischen spalten zwischen den einzelnen Fasern. Ein nervöser Impuls durchfließt einen Zeitabschnitt, bricht plötzlich ab, hält inne, überspringt ein Vakuum und fließt im angrenzenden Abschnitt weiter..
+Gibt es echte Stufenlosigkeit? Sind Nuancen nicht auch nur skalierte Kontraste? Ist Veränderung kontinuierlich möglich oder immer nur schrittweise? Findet man zwangsläufig Einheiten, die die kleinstmögliche Schrittgröße definieren, wenn man nur weit genug ins Detail geht?..
 {%- endcall %}
 
 {% call element.textualteaser('Uhrzeit', 'uhrzeit.html') -%}
-Das Lateinische Wort Hora (Stunde) kommt von der Gebetsstunde. Diese war eine fest eingeteilte Zeit des Tages, später wurde Das Wort Hora nicht mehr nur für die Gebetsstunde, sondern auch für die anderen eingeteilten Zeitabschnitte des Tages verwendet. Die Länge eines Tages war in allen Kulturkreisen durch die Dauer festgelegt in der sich die Erde einmal um ihre Achse dreht..
+Das Lateinische Wort Hora (Stunde) kommt von der Gebetsstunde, diese war eine fest eingeteilte Zeit des Tages, später wurde das Wort Hora nicht mehr nur für die Gebetsstunde, sondern auch für die anderen eingeteilten Zeitabschnitte des Tages verwendet. Die Länge eines Tages war in allen Kulturkreisen durch die Dauer festgelegt in der sich die Erde einmal um ihre Achse dreht..
 {%- endcall %}
 
 {% call element.textualteaser('Zeit im Raum', 'zeit_im_raum.html') -%}

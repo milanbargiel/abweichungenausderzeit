@@ -10,30 +10,31 @@
 
 <article>
   <h1>Palmströms Uhr</h1>
-  <p class="quote">
+  <p>
     Palmströms Uhr ist andrer Art,</br>
     reagiert mimosisch zart.
   </p>
-  <p class="quote">
+  <p>
     Wer sie bittet, wird empfangen.</br>
     Oft schon ist sie so gegangen,
   </p>
-  <p class="quote">
+  <p>
     wie man herzlich sie gebeten,</br>
     ist zurück - und vorgetreten,
   </p>
-  <p class="quote">
+  <p>
     eine Stunde, zwei, drei Stunden,</br>
     je nachdem sie mitempfunden.
   </p>
-  <p class="quote">
+  <p>
     Selbst als Uhr, mit ihren Zeiten,</br>
     will sie nicht Prinzipien reiten:
   </p>
-  <p class="quote">
+  <p>
     Zwar ein Werk, wie allerwärts,</br>
     doch zugleich ein Werk - mit Herz.
   </p>
+    <span class="caption">Christian Morgenstern</span>
 </article>
 
 {% include "endmenu.nunjucks" %}
