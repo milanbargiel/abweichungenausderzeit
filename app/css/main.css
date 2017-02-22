@@ -1493,7 +1493,8 @@ sup a {
   position: relative; }
   @media (min-width: 768px) {
     .video-container {
-      width: 82%; } }
+      width: 82%;
+      padding-bottom: 46.125%; } }
   .video-container iframe {
     height: 100%;
     left: 0;

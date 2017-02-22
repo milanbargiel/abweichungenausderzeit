@@ -45,7 +45,7 @@
     "daß die Wahrnehmung eines zeitlichen Objekts selbst Zeitlichkeit hat, daß Wahrnehmung der Dauer selbst Dauer der Wahrnehmung voraussetzt"<sup><a href="#cite-note-3">[3]</a></sup>
     Die Beobachtung der Zeit tritt im Video in den Hintergrund, da der Betrachter im Zeitverlauf mitgenommen wird. Im Standbild dagegen behält er den Überblick und eine Souveränität gegenüber dem Medium. Das Video fesselt den Betrachter an die Zeit. Beim Standbild kann man jederzeit hinsehen oder wegschauen ohne etwas zu verpassen. So bringt das Video eine starke Limitierung mit sich, was den Umgang mit Zeit betrifft. Selbst wenn der Film in Zeitlupe oder im Zeitraffer abläuft, ändert sich nichts an dem Problem. Die Zeitskalierung findet nur innerhalb des Mediums statt, nicht in der Realzeit des Betrachters. Dieser muss immer noch seine Zeit "opfern" bzw. Zur Verfügung stellen.
   </p>
-  <p>
+  <p id="geschwindigkeit">
     Auch das Intervall ist entscheidend für das Bemerken vom Vergehen der Zeit. Wer kontinuierliche Bewegung sieht bemerkt das Vergehen der Zeit weniger als derjenige, der ab und zu mal hinschaut und eine Veränderung zwischen zwei positionen oder Stadien der Veränderung bemerkt.
     Deutlich wird das z.B. in <span class="italic">Wavelength</span>, einem Film aus den Jahre 1967 von Michael Snow, bei dem die Kamera in 45 Minuten die Länge eines geheimnisvollen Dachbodens abfährt und dies kombiniert mit einer ununterbrochenen, nahezu unmerklichen Zoombewegung. Wer sich hier nicht ab und zu vom Film abwendet bemerkt das Vergehen der Zeit in demselben nicht. Unterbrechung, Schnitte, Stauchungen sind also notwendig um die Zeit erst als solche erfahrbar zu machen. Das Einschätzen von Geschwindigkeit funktioniert übrigens auch besser, wenn man ab und zu blinzelt um kurze Unterbrechungen in der Wahrnehmung der Bewegung zu haben. Auch die technische <a target="blank" href="messen_und_wahrnehmen_von_zeit.html">Messung von Zeit</a> funktioniert  nur mit Intervallen, die die gemessenen Zustände oder Ereignisse voneinander abgrenzen.
   </p>
@@ -85,7 +85,7 @@
     Je kürzer ein Loop, desto ähnlicher ist er einem Foto. Ein Foto oder Standbild erzählt uns zu jedem Moment das gleiche. Wiederholt es sich in jedem Moment unendlich oft selbst? Bleibt es einfach konstant? Oder ist Konstanz ständige Wiederholung? Gemalte Bilder, Fotos und Standbilder verändern sich nur auf lange Sicht gesehen durch Materialverschleiß. Dies ist für einen Betrachter der ohne zeitliche Abstände betrachtet nicht bemerkbar. Dahingegen ist der Film gekennzeichnet durch Veränderung seiner Bilder in der Zeit. Ich möchte eine Mischform erzeugen zwischen Bild und Film. Einen Film, der stehen bleibt, der sich so oft wiederholt, dass er schon fast zum fotografischen Bild wird.
   </p>
   <p>
-    In meinem Video vom Schleudern einer <a target="blank" href="sanduhr_geschleudert.html">Sanduhr</a> gibt es zwar Bewegung in Zeit die der Zuschauer wahrnimmt, jedoch ist diese zyklisch und springt alle 0,56 Sekunden wieder an den Anfang, der gleichzeitig auch das Ende markiert. Anfang und Ende sind sich so ähnlich. Für den Zuschauer ist also nicht direkt ersichtlich, ob er sich vor einem fortlaufenden Video oder einem Loop befindet. Die Bewegung findet so oft statt, dass es fast so scheint als würde jeder Moment dem vorherigen entsprechen. Die Frage ist: Wo ist die Grenze zwischen Geschehen in der Zeit und angehaltenem Moment? Produziert sich die Zeit aus der ständigen Reproduktion eines sehr <a target="blank" href="messen_und_wahrnehmen_von_zeit.html">ähnlichen Vorgangs</a> wie in der Uhr? Oder bleibt die Zeit stehen, weil sich immer dasselbe wiederholt? Das subjektiv erlebte "Jetzt" dauert bis zu drei Sekunden.<sup><a href="#cite-note-6">[6]</a></sup>
+    In meinem Video vom Schleudern einer <a target="blank" href="sanduhr_geschleudert.html">Sanduhr</a> gibt es zwar Bewegung in Zeit die der Zuschauer wahrnimmt, jedoch ist diese zyklisch und springt alle 0,56 Sekunden wieder an den Anfang, der gleichzeitig auch das Ende markiert. Anfang und Ende sind sich so ähnlich. Für den Zuschauer ist also nicht direkt ersichtlich, ob er sich vor einem fortlaufenden Video oder einem Loop befindet. Die Bewegung findet so oft statt, dass es fast so scheint als würde jeder Moment dem vorherigen entsprechen. Die Frage ist: Wo ist die Grenze zwischen Geschehen in der Zeit und angehaltenem Moment? Produziert sich die Zeit aus der ständigen Reproduktion eines sehr <a target="blank" href="messen_und_wahrnehmen_von_zeit.html#periodisch">ähnlichen Vorgangs</a> wie in der Uhr? Oder bleibt die Zeit stehen, weil sich immer dasselbe wiederholt? Das subjektiv erlebte "Jetzt" dauert bis zu drei Sekunden.<sup><a href="#cite-note-6">[6]</a></sup>
     Welche Auswirkungen auf unser Zeitempfinden hat die Betrachtung von dem Video das kürzer ist als ein "Jetzt"?
   </p>
 
@@ -135,7 +135,7 @@
   </p>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/ApQFZIsgjQA" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/ApQFZIsgjQA?rel=0" frameborder="0" allowfullscreen></iframe>
   </div>
 
   <p>

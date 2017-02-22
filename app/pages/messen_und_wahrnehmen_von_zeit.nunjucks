@@ -18,7 +18,7 @@
     <a class="caption" href="#cite-note-1">Lorenz, 2012, Seite 31</a>
   </div>
 
-  <p>
+  <p id="periodisch">
     Um Zeit messen zu können braucht man zuallererst eine Definition von Zeit. In unserem Alltag definieren wir Zeit, als etwas Unumkerhrbares und gleichförmig Voranschreitendes. Dann wird in der Natur nach Vorgängen gesucht, die diesem Ideal möglichst nahe kommen, messbar und zählbar sind. Dabei ist es von großer Wichtigkeit, dass sich die Vorgänge möglichst ähnlich wiederholen. Diese periodischen Vorgänge werden dann gezählt. Es ist notwendig, den vorherigen Stand abspeichern zu können um den aktuell gezählten hinzufügen zu können. Wichtig sind also der Zeitgeber, ein Empfänger, der die Takte erkennt, und ein Speicher. Es gibt viele Möglichkeiten mit Vorgängen in der Natur Zeit zu messen. Für die meisten macht man sich die Schwerkraft zu nutze. Bei Sand- und Wasseruhren ist es eine Verengung, durch die Material von der Schwerkraft nach unten getrieben wird, die dafür sorgt, dass nicht alles auf einmal passiert. Bei der Pendeluhr ist es das Pendel, welches von der Masse der Erde angezogen wird. Durch seine Aufhängung, den Antrieb und eine Aktivierungsenergie schwingt es hin und her und erzeugt einen gleichmäßigen Takt. Bei der Sonnenuhr sind es Schwerkraft und Beschleunigung, die für die gleichmäßige Veränderung der Position zwischen Sonne und Erde verantwortlich sind. Es ergeben sich Jahre und Tage die mit einer Sonnenuhr gemessen werden können.
   </p>
   <p>
@@ -61,7 +61,7 @@
   <p>
     Dass Zeit gefühlt langsam vergeht solange wenig passiert und schnell wenn viel los ist kennt jeder. Andersherum ist es wenn man auf diese Zeit zurückblickt. Zeiträume in denen viel geschah wirken lang, da sie viele Erlebnisse und Erinnerungen beinhalten. Zeiträume die von wenig Veränderung geprägt waren erscheinen nun sehr kurz, weil das Gedächtnis den Zeitraum einfach zusammenfassen kann. Ähnlich verhält es sich mit den kurzen Zeitspannen des momentanen Erlebens. In Schrecksekunden etwa ist das Erregungsniveau des Körpers erhöht, mentale Vorgänge laufen vergleichsweise schneller ab, alles was passiert wird sehr detailliert registriert, die Zeit scheint in Zeitlupe zu abzulaufen. Verlangsamt wird der subjektive Zeiteindruck z.B bei Fieber. Die innere Uhr wird durch die hohe physiologische Aktivität beschleunigt und Dauer wird überschätzt.
   </p>
-  <p>
+  <p id="zeitwahrnehmung">
     Kognitionswissenschaftler haben Prozessmodelle der Zeitwahrnehmung entwickelt um diese Phänomene zu erklären. In diesen sendet ein hypothetischer Zeitgeber Impulse mit einer bestimmten Frequenz, die ein Akkumulator auffängt. Je mehr Impulse Letzterer über einen gewissen Zeitraum registriert, desto länger ist die subjektive Dauer. Zwei Mechanismen bestimmen dabei die Anzahl der aufgenommenen Impulse – sprich die subjektive Zeit. Zum einen der oben beschriebene Aufmerksamkeitseffekt: Ist man abgelenkt, gehen im Akkumulator weniger Impulse ein; die Zeitdauer erscheint kürzer. Beim Warten fokussieren wir hingegen stark auf die Zeit, was sie subjektiv dehnt, weil mehr Impulse angesammelt werden. Zum anderen moduliert das Erregungsniveau den Zeitgeber: Ist die körperliche Aktivierung intensiviert, erhöht sich die Taktfrequenz. Dadurch können auch mehr Impulse im Akkumulator eintreffen.
   </p>
   <p>
@@ -69,7 +69,7 @@
   </p>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/g9BqqVRJFXE" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/g9BqqVRJFXE?rel=0" frameborder="0" allowfullscreen></iframe>
   </div>
 
   <div class="references">

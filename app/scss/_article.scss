@@ -125,6 +125,7 @@ sup {
 
   @include media-breakpoint-up(md) {
     width: $width-medium;
+    padding-bottom: 46.125%;
   }
 
   iframe {

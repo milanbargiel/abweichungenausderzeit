@@ -20,12 +20,8 @@
 
   <p>
     Gibt es echte Stufenlosigkeit? Sind Nuancen nicht auch nur skalierte Kontraste? Ist Veränderung kontinuierlich möglich oder immer nur schrittweise? Findet man zwangsläufig Einheiten, die die kleinstmögliche Schrittgröße definieren, wenn man nur weit genug ins Detail geht? Lässt sich Bewegung in Teile herunterbrechen? Ist Zeit ein durchgängiges Medium oder ist sie portioniert? 
-    Zenon von Kition war der erste, von dem wir wissen, dass er Bewegung in Einzelteile zerstückelte. Er behauptete ein fliegender Pfeil stehe an jedem der Raumpunkte, die er durchfliegt still, solange man nur den Betrachtungszeitraum klein genug wählt. Ähnlich könnte man sagen, jedes Rad stehe im Mittelpunkt still, denn hier gilt: je größer der Umfang, desto höher die Geschwindigkeit. Je näher man dem Zentrum des Rades kommt desto langsamer scheint es zu drehen. Beide dieser Behauptungen erweisen sich allerdings als Trugschluss, weshalb man auch von Zenons Paradoxon spricht. Mathematisch lässt sich das Problem nämlich auflösen:
+    Zenon von Kition war der erste, von dem wir wissen, dass er Bewegung in Einzelteile zerstückelte. Er behauptete ein fliegender Pfeil stehe an jedem der Raumpunkte, die er durchfliegt still, solange man nur den Betrachtungszeitraum klein genug wählt. Ähnlich könnte man sagen, jedes Rad stehe im Mittelpunkt still, denn hier gilt: je größer der Umfang, desto höher die Geschwindigkeit. Je näher man dem Zentrum des Rades kommt desto langsamer scheint es zu drehen. Beide dieser Behauptungen erweisen sich allerdings als Trugschluss, weshalb man auch von Zenons Paradoxon spricht. Mathematisch lässt sich das Problem nämlich <a target="_blank" href="https://www.youtube.com/watch?v=xnkh09uKR7s">auflösen</a>.
   </p>
-
-  <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/xnkh09uKR7s" frameborder="0" allowfullscreen></iframe>
-  </div>
 
   <p>
     Die Zeit lässt sich also nicht so leicht von der Bewegung abkoppeln wie Zenon es gedacht hatte. Werner Heisenberg stellte aber in seiner Unschärferelation fest, dass die Ortsbestimmung schwieriger wird bei zunehmender Genauigkeit der Zeitbestimmung und umgekehrt.
@@ -44,7 +40,7 @@
   Für den Menschen keine einfache Vorstellung, erfasst er doch nur ganz andere Zeiträume. Das erlebte "Jetzt" ist länger als eine Viertelsekunde und kürzer als drei Sekunden.<sup><a href="#cite-note-3">[3]</a></sup> Trotzdem haben wir ein kontinuierliches Zeitempfinden und nicht eine Aneinanderreihung von mehreren "Jetzt". Das Jetzt befindet sich ständig im Übergang. Wir bewegen uns in einem dauernden Jetzt in dem die Zukunft auf uns zukommt. Der Psychologe und Humanbiologe Marc Wittmann sagt: Das Präsenzgefühl ist gespeist durch das Arbeitsgedächtnis, das ständig neue Eindrücke bekommt, die es aber auch schnell wieder verliert, weshalb sich das Jetzt nicht ausdehnt sondern auf eine Länge begrenzt bleibt.<sup><a href="#cite-note-4">[4]</a></sup>
 </p>
 <p>
-  Kontinuierliche Bewegung ist für den Menschen schwer <a target="_blank" href="zeit_im_bewegtbild_standbild_und_text.html">greifbar</a>, deshalb beginnt er zu unterteilen, zu quantifizieren, zu zählen, messen, wiegen. Mit der Erfindung der <a target="_blank" href="https://de.wikipedia.org/wiki/Hemmung_(Uhr)">Hemmung</a> bekam der Mensch die Zeitmessung endlich in den Griff. Das Flüchtige wurde aufgehoben, die Zeit wurde portioniert. In dieser zerstückelten Form und aus der Außenperspektive ist die Zeit für den Betrachter einfacher zu fassen. Der sinnlichen Komponente des Erlebens von Zeit muss er sich, so gut es geht, entziehen.
+  Kontinuierliche Bewegung ist für den Menschen schwer <a target="_blank" href="zeit_im_bewegtbild_standbild_und_text.html#geschwindigkeit">greifbar</a>, deshalb beginnt er zu unterteilen, zu quantifizieren, zu zählen, messen, wiegen. Mit der Erfindung der <a target="_blank" href="https://de.wikipedia.org/wiki/Hemmung_(Uhr)">Hemmung</a> bekam der Mensch die Zeitmessung endlich in den Griff. Das Flüchtige wurde aufgehoben, die Zeit wurde portioniert. In dieser zerstückelten Form und aus der Außenperspektive ist die Zeit für den Betrachter einfacher zu fassen. Der sinnlichen Komponente des Erlebens von Zeit muss er sich, so gut es geht, entziehen.
 </p>
 <p>
  Die Wahrnehmung selbst ist auch an die Zeit gekoppelt und hat interessanterweise einen Charakter der durch Unterbrechungen, und Fließen gekennzeichnet ist, da sie beides in sich vereint. Die Signale im Gehirn werden in zeitlich versetzten elektrischen Impulsen innerhalb der Neuronen transportiert. Um von einem anderen Neuron aufgenommen zu werden, finden allerdings chemische (ganz unmittelbar flüssige) Prozesse an den Synapsen statt. Diese Vorgänge dauern eine gewisse Zeit, sie können nur mit begrenzter Geschwindigkeit ablaufen. Die Augen nehmen Reize mit einer bestimmten Frequenz auf. Der Sehfarbstoff muss sich erst neu bilden, bevor er wieder von Licht getroffen werden- und zerfallen kann. Die verschiedenen Sinne nehmen unterschiedlich schnell wahr. Das Ohr kann aufeinanderfolgende Töne mit einer anderen Geschwindigkeit auseinanderhalten als das Auge visuelle Reize und die Haut haptische Reize.
@@ -56,15 +52,15 @@
   Das Zusammenfallen und die Unterscheidung zweier Reize wird in der Psychologie mit der Fusionsschwelle und der Ordnungsschwelle beschrieben:
 </p>
 
-<h2>Erleben von Gleichzeitigkeit (Fusionsschwelle)</h2>
+<h2 style="font-size: 2.1rem; margin-bottom: 0px;">Erleben von Gleichzeitigkeit (Fusionsschwelle)</h2>
 <p>
   Die Fusionsschwelle entspricht dem minimalen zeitlichen Abstand (Interstimulusintervall) bei dem zwei aufeinanderfolgende Reize gerade noch als getrennt wahrgenommen werden.
   Bezogen auf die Sprache beschreibt die auditive Fusionsschwelle den zeitlichen Bereich, in welchem zwei Sprachimpulse getrennt wahrgenommen werden können.
   Aufgrund unterschiedlicher peripherer Verarbeitungsmechanismen, unterscheidet sich die Fusionsschwelle zwischen den einzelnen Sinnesmodalitäten, ist also modalitätsabhängig und beträgt bei gesunden Erwachsenen in etwa: auditiv ca. 2-3 ms, visuell ca. 20ms, taktil ca. 10ms.
 </p>
 
-<h2>Erleben von zeitlicher Abfolge (Ordnungsschwelle)</h2>
-<p>
+<h2 style="font-size: 2.1rem; margin-bottom: 0px; margin-top: 22px;">Erleben von zeitlicher Abfolge (Ordnungsschwelle)</h2>
+<p style="margin-bottom: 66px;">
   Entspricht dem minimalen Zeitintervall, bei dem gerade noch die Reihenfolge zweier Reize angegeben werden kann. Im Gegensatz zur Fusionsschwelle ist die Ordnungsschwelle modalitätenunabhängig, unterscheidet sich also nicht zwischen den einzelnen Sinnesmodalitäten. Zur Identifikation von Reihenfolge wird ein zentral geregeltes System, das für alle Sinnesmodalitäten existiert, angenommen. Die Ordnungsschwelle beträgt beim gesunden Erwachsenen in etwa 20-40 ms, wobei abweichende Angaben aus der Literatur durch zum Teil unterschiedliche Bestimmungsmethoden zustandekommen.<sup><a href="#cite-note-6">[6]</a></sup>
 </p>
 <p>
@@ -97,7 +93,7 @@
   In den Medien wird immer mit Unterbrechungen (Einzelbildern, Pausen, Abständen) gearbeitet, diese ermöglichen es dem Menschen Ereignisse voneinander abzugrenzen. So wird ein Abstand aufgebaut, eine Differenz zur eigenen fluiden Wahrnehmung geschaffen.
 </p>
 <p>
-  Eine wichtige Kunstströmung im Zusammenhang mit der fluiden Zeit ist die Fluxus-Bewegung, zu deren Künstlern auch Nam June Paik und John Cage zählen. Im FLuxus wollte man das fluide der Zeit aufgreifen - IN der Zeit arbeiten, man wollte die Grenze zwischen Kunst und Leben aufheben, man veranstaltete Aktionen in denen es um das Vergängliche, die Entwicklung und das Geschehen im Moment ging. Das Publikum wurde beteiligt, Ausgang oder Produkt waren im Fluxus nicht von Interesse. Man arbeitete mit dem Fluss der Zeit. Diese Art von Kunst setzt ein unmittelbares Erleben voraus, sie lässt sich nicht konservieren, ist direkt und vergänglich. Fluxus arbeitet mit der Zeit und nicht gegen die Zeit, wie z.B. <a target="blank" href="wiederholung_entsprechung.html">Christian Boltanski</a>.
+  Eine wichtige Kunstströmung im Zusammenhang mit der fluiden Zeit ist die Fluxus-Bewegung, zu deren Künstlern auch Nam June Paik und John Cage zählen. Im FLuxus wollte man das fluide der Zeit aufgreifen - IN der Zeit arbeiten, man wollte die Grenze zwischen Kunst und Leben aufheben, man veranstaltete Aktionen in denen es um das Vergängliche, die Entwicklung und das Geschehen im Moment ging. Das Publikum wurde beteiligt, Ausgang oder Produkt waren im Fluxus nicht von Interesse. Man arbeitete mit dem Fluss der Zeit. Diese Art von Kunst setzt ein unmittelbares Erleben voraus, sie lässt sich nicht konservieren, ist direkt und vergänglich. Fluxus arbeitet mit der Zeit und nicht gegen die Zeit, wie z.B. <a target="blank" href="wiederholung_entsprechung.html#erinnerung">Christian Boltanski</a>.
 </p>
 <p>
   Die meisten Ausgangsfragen dieses Artikels lasse ich hier bewusst unbeantwortet. Philosophen und Physiker sind sich uneinig und selbst innerhalb der Physik gibt es widersprüchliche Theorien. Für die menschliche Wahrnehmung sind viele dieser Fragen aber auch nicht relevant, da die Auswirkungen unterhalb seiner Wahrnehmungsschwelle liegen. Der Eindruck der Zeit bleibt ein fließender, wie Henri Bergson sagt:
