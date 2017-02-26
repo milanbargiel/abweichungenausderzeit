@@ -5,19 +5,19 @@
 {% block content %}
 
 <nav> 
-<a class="header" href="index.html">ABWEICHUNGEN<br>AUS DER ZEIT</a>
+  <a class="header" href="index.html">ABWEICHUNGEN<br>AUS DER ZEIT</a>
 </nav>
 
 <article>
-<h1>Girasol</h1>
-<p>
-ist eine Sonnenuhr, die sich mit dem Verlauf der Sonne mitbewegt und zu keiner Zeit die Uhrzeit verrät. Natürlich kennt sie diese sowie die eigene Position auf der Erde. Damit der Sonnenstand errechnet werden kann. Jegliches Objekt das Schatten wirft kann als Uhr verwendet werden. Es gibt wohl weniger Dinge die keine Sonnenuhr sind als die die es sind. Das Heliostat ist eine der wenigen Ausnahmen. Girasol ist etwas (eine Uhr) das dafür da ist, das wofür es da ist (die Zeit zu messen) nicht zu tun.
-Diese Uhr stellt sich der Veränderung der Position zwischen Erde und Sonne entgegen, macht aufmerksam auf die Relativität unserer Lage und negiert das Vergehen der Zeit. Man könnte eine unsichtbare Verbindung zwischen der Skala der Uhr und der Sonne denken, dann würden die beiden kleinen Servomotoren die Erde bewegen. <span class="italic">Girasol</span> ist spanisch und bedeutet <span class="italic">Sonnenblume</span>. das Wort setzt sich zusammen aus dem verb Drehen (Girar) und Sonne (Sol), wäre direkt übersetzt also zu verstehen als <span class="italic">dreh zur Sonne.</span>
-</p>
-<div class="image-container">
-<img class="image-large" src="images/girasol.jpg" alt="Girasol Sonnenuhr von Maurits Boettger">
-<span class="caption">Maurits Boettger, Girasol, 2017</span>
-</div>
+  <h1>Girasol</h1>
+  <p>
+    ist eine Sonnenuhr, die sich mit dem Verlauf der Sonne mitbewegt und zu keiner Zeit die Uhrzeit verrät. Natürlich kennt sie diese sowie die eigene Position auf der Erde. Damit der Sonnenstand errechnet werden kann. Jegliches Objekt das Schatten wirft kann als Uhr verwendet werden. Es gibt wohl weniger Dinge die keine Sonnenuhr sind als die die es sind. Das Heliostat ist eine der wenigen Ausnahmen. Girasol ist etwas (eine Uhr) das dafür da ist, das wofür es da ist (die Zeit zu messen) nicht zu tun.
+    Diese Uhr stellt sich der Veränderung der Position zwischen Erde und Sonne entgegen, macht aufmerksam auf die Relativität unserer Lage und negiert das Vergehen der Zeit. Man könnte eine unsichtbare Verbindung zwischen der Skala der Uhr und der Sonne denken, dann würden die beiden kleinen Servomotoren die Erde bewegen. <span class="italic">Girasol</span> ist spanisch und bedeutet <span class="italic">Sonnenblume</span>. das Wort setzt sich zusammen aus dem verb Drehen (Girar) und Sonne (Sol), wäre direkt übersetzt also zu verstehen als <span class="italic">dreh zur Sonne.</span>
+  </p>
+  <div class="image-container">
+    <img class="image-large" src="images/girasol.jpg" alt="Girasol Sonnenuhr von Maurits Boettger">
+    <span class="caption">Maurits Boettger, Girasol, 2017</span>
+  </div>
 </article>
 
 {% include "endmenu.nunjucks" %}

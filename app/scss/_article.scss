@@ -21,6 +21,11 @@ h2 {
   }
 }
 
+h3 {
+  font-size: $font-size-h3;
+  margin: $dist-sm 0 3px;
+}
+
 p {
   margin: 0 0 $dist-sm;
 
@@ -78,6 +83,11 @@ sup {
 
   &:hover {
     color: $black;
+  }
+
+  &--intext {
+    display: block;
+    float: none;
   }
 }
 
@@ -154,4 +164,19 @@ sup {
   display: block;
   margin: $dist-lg 0;
   text-decoration: none;
+}
+
+.indented {
+  font-size: $font-size-sm;
+  padding-left: 16px;
+  
+
+  @include media-breakpoint-up(md) {
+    padding-left: 44px;
+    width: 72%;
+
+    p {
+      width: 100%;
+    }
+  }
 }

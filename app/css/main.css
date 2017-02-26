@@ -1268,6 +1268,7 @@ html {
   font-size: 62.5%; }
 
 body {
+  background-color: #fafafa;
   color: #222;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.7rem;
@@ -1411,6 +1412,10 @@ h2 {
     h2 {
       width: 61%; } }
 
+h3 {
+  font-size: 1.7rem;
+  margin: 2.2rem 0 3px; }
+
 p {
   margin: 0 0 2.2rem; }
   @media (min-width: 768px) {
@@ -1456,6 +1461,9 @@ sup a {
   text-decoration: none; }
   .caption:hover {
     color: #222; }
+  .caption--intext {
+    display: block;
+    float: none; }
 
 .image-container {
   margin: 4.4rem 0; }
@@ -1515,3 +1523,13 @@ sup a {
   display: block;
   margin: 6.6rem 0;
   text-decoration: none; }
+
+.indented {
+  font-size: 1.4rem;
+  padding-left: 16px; }
+  @media (min-width: 768px) {
+    .indented {
+      padding-left: 44px;
+      width: 72%; }
+      .indented p {
+        width: 100%; } }

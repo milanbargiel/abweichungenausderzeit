@@ -7,6 +7,7 @@ html {
 }
 
 body {
+  background-color: $background-color;
   color: $black;
   font-family: $base-font;
   font-size: $font-size-base; // currently ems cause chrome bug misinterpreting rems on body element
