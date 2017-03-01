@@ -1495,20 +1495,23 @@ sup a {
   .image-large {
     width: 100%; } }
 
-.video-container {
-  margin: 4.4rem 0;
+.iframe-container {
   padding-bottom: 56.25%;
   position: relative; }
   @media (min-width: 768px) {
-    .video-container {
+    .iframe-container {
       width: 82%;
       padding-bottom: 46.125%; } }
-  .video-container iframe {
+  .iframe-container iframe {
     height: 100%;
     left: 0;
     position: absolute;
     top: 0;
     width: 100%; }
+
+.video-container {
+  margin: 4.4rem 0;
+  overflow: hidden; }
 
 .references {
   margin: 4.4rem 0; }

@@ -85,10 +85,14 @@
   <p>
     Übrigens folgte die Definition des Meters aus der der Sekunde. Ein Meter ist die Länge der Schnur die es braucht, damit die Schwingung eines Pendels eine Sekunde dauert. Dieser Bezug zwischen Zeitmaß und räumlichen Maß ist deshalb interessant, weil wir in der Sprache und oft in der Vorstellung vom Raum ausgehen, um die Zeit zu <a target="blank" href="zeit_im_raum.html">beschreiben</a>
   </p>
-
+  
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/g9BqqVRJFXE?rel=0" frameborder="0" allowfullscreen></iframe>
+    <div class="iframe-container">
+      <iframe src="https://www.youtube.com/embed/g9BqqVRJFXE?rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <span class="caption">Maurits Boettger, 2016</span>
   </div>
+  
 
   <div class="references">
     <h2>Referenzen:</h2>

@@ -128,8 +128,7 @@ sup {
   }
 }
 
-.video-container {
-  margin: $dist-md 0;
+.iframe-container {
   padding-bottom: 56.25%; // aspect ratio 16:9
   position: relative;
 
@@ -145,6 +144,11 @@ sup {
     top: 0;
     width: 100%;
   }
+}
+
+.video-container {
+  margin: $dist-md 0;
+  overflow: hidden;
 }
 
 .references {
