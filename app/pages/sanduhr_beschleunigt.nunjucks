@@ -1,5 +1,5 @@
-<!-- sanduhr_geschleudert.nunjucks -->
-{% set title = 'Sanduhr geschleudert | Abweichungen aus der Zeit' %}
+<!-- sanduhr_beschleunigt.nunjucks -->
+{% set title = 'Sanduhr beschleunigt | Abweichungen aus der Zeit' %}
 {% extends "layout.nunjucks" %}
 
 {% block content %}
@@ -14,8 +14,8 @@
     ist ein 0,56 sekündiger (die Zeit, die es braucht die Sanuhr einmal um meinen Kopf zu schleudern) Videoloop bei dem man mich beobachten kann, wie ich in der Wüste stehend eine Sanduhr um mich herum schleudere. Die meisten Uhren sind direkt von der Schwerkraft abhängig. Bei den Sand, Wasser- und Pendeluhren sehen wir es direkt. Bei der Sonnenuhr nur im weiteren Sinne, wenn man weiß, dass die Erde durch ihre Geschwindigkeit und die Anziehungskraft der Sonne in ihrer Bahn gehalten wird. Hier erschaffe ich durch die Fliehkrafte, die stärker sind als die Schwerkraft eine Parallelzeit an einem kulturlosen <a target="_blank" href="wueste.html">Ort</a>. Durch die Videoschleife wird die schnellere Parallelzeit aber ausgebremst, bzw. angehalten, es gibt keine Entwicklung über längere Zeiträume. Das Bild bleibt immer dasselbe, wie bei einer Uhr, die immer wieder die gleichen Zeigerkonstellationen zeigt.
   </p>
   <div class="image-container">
-    <img class="image-large" src="images/eile-mit-weile.jpg" alt="Sanduhr (geschleudert)">
-    <span class="caption">Maurits Boettger, Sanduhr (geschleudert), 2016</span>
+    <img class="image-large" src="images/eile-mit-weile.jpg" alt="Sanduhr (beschleunigt)">
+    <span class="caption">Maurits Boettger, Sanduhr (beschleunigt), 2016</span>
   </div>
 </article>
 
